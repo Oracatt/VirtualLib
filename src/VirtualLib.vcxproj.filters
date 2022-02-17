@@ -1,0 +1,4732 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="源文件">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="头文件">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="资源文件">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="VirtualLib.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="PhysX\common\include\windows\CmWindowsLoadLibrary.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="PhysX\common\include\windows\CmWindowsModuleUpdateLoader.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="PhysX\common\src\CmBitMap.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="PhysX\common\src\CmBlockArray.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="PhysX\common\src\CmCollection.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="PhysX\common\src\CmConeLimitHelper.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="PhysX\common\src\CmFlushPool.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="PhysX\common\src\CmIDPool.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="PhysX\common\src\CmIO.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="PhysX\common\src\CmMatrix34.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="PhysX\common\src\CmPhysXCommon.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="PhysX\common\src\CmPool.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="PhysX\common\src\CmPreallocatingPool.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="PhysX\common\src\CmPriorityQueue.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="PhysX\common\src\CmPtrTable.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="PhysX\common\src\CmQueue.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="PhysX\common\src\CmRadixSort.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="PhysX\common\src\CmRadixSortBuffered.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="PhysX\common\src\CmRefCountable.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="PhysX\common\src\CmRenderBuffer.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="PhysX\common\src\CmRenderOutput.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="PhysX\common\src\CmScaling.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="PhysX\common\src\CmSpatialVector.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="PhysX\common\src\CmTask.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="PhysX\common\src\CmTaskPool.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="PhysX\common\src\CmTmpMem.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="PhysX\common\src\CmTransformUtils.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="PhysX\common\src\CmUtils.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="PhysX\common\src\CmVisualization.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="PhysX\compiler\resource_x64\resource.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="PhysX\compiler\resource_x86\resource.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="PhysX\fastxml\include\PsFastXml.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="PhysX\filebuf\include\PsAsciiConversion.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="PhysX\filebuf\include\PsFileBuffer.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="PhysX\filebuf\include\PsIOStream.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="PhysX\filebuf\include\PsMemoryBuffer.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="PhysX\foundation\include\windows\PsWindowsAoS.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="PhysX\foundation\include\windows\PsWindowsFPU.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="PhysX\foundation\include\windows\PsWindowsInclude.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="PhysX\foundation\include\windows\PsWindowsInlineAoS.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="PhysX\foundation\include\windows\PsWindowsIntrinsics.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="PhysX\foundation\include\windows\PsWindowsTrigConstants.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="PhysX\foundation\include\Ps.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="PhysX\foundation\include\PsAlignedMalloc.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="PhysX\foundation\include\PsAlloca.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="PhysX\foundation\include\PsAllocator.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="PhysX\foundation\include\PsAoS.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="PhysX\foundation\include\PsArray.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="PhysX\foundation\include\PsAtomic.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="PhysX\foundation\include\PsBasicTemplates.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="PhysX\foundation\include\PsBitUtils.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="PhysX\foundation\include\PsBroadcast.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="PhysX\foundation\include\PsCpu.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="PhysX\foundation\include\PsFoundation.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="PhysX\foundation\include\PsFPU.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="PhysX\foundation\include\PsHash.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="PhysX\foundation\include\PsHashInternals.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="PhysX\foundation\include\PsHashMap.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="PhysX\foundation\include\PsHashSet.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="PhysX\foundation\include\PsInlineAllocator.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="PhysX\foundation\include\PsInlineAoS.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="PhysX\foundation\include\PsInlineArray.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="PhysX\foundation\include\PsIntrinsics.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="PhysX\foundation\include\PsMathUtils.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="PhysX\foundation\include\PsMutex.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="PhysX\foundation\include\PsPool.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="PhysX\foundation\include\PsSList.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="PhysX\foundation\include\PsSocket.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="PhysX\foundation\include\PsSort.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="PhysX\foundation\include\PsSortInternals.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="PhysX\foundation\include\PsString.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="PhysX\foundation\include\PsSync.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="PhysX\foundation\include\PsTempAllocator.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="PhysX\foundation\include\PsThread.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="PhysX\foundation\include\PsTime.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="PhysX\foundation\include\PsUserAllocated.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="PhysX\foundation\include\PsUtilities.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="PhysX\foundation\include\PsVecMath.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="PhysX\foundation\include\PsVecMathAoSScalar.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="PhysX\foundation\include\PsVecMathAoSScalarInline.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="PhysX\foundation\include\PsVecMathSSE.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="PhysX\foundation\include\PsVecMathUtilities.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="PhysX\foundation\include\PsVecQuat.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="PhysX\foundation\include\PsVecTransform.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="PhysX\geomutils\include\GuBox.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="PhysX\geomutils\include\GuDistanceSegmentBox.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="PhysX\geomutils\include\GuDistanceSegmentSegment.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="PhysX\geomutils\include\GuIntersectionBoxBox.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="PhysX\geomutils\include\GuIntersectionTriangleBox.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="PhysX\geomutils\include\GuIntersectionTriangleBoxRef.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="PhysX\geomutils\include\GuRaycastTests.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="PhysX\geomutils\include\GuSegment.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="PhysX\geomutils\include\GuSIMDHelpers.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="PhysX\geomutils\src\ccd\GuCCDSweepConvexMesh.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="PhysX\geomutils\src\common\GuBarycentricCoordinates.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="PhysX\geomutils\src\common\GuBoxConversion.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="PhysX\geomutils\src\common\GuEdgeCache.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="PhysX\geomutils\src\common\GuEdgeListData.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="PhysX\geomutils\src\common\GuSeparatingAxes.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="PhysX\geomutils\src\contact\GuContactMethodImpl.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="PhysX\geomutils\src\contact\GuContactPolygonPolygon.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="PhysX\geomutils\src\contact\GuFeatureCode.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="PhysX\geomutils\src\convex\GuBigConvexData.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="PhysX\geomutils\src\convex\GuBigConvexData2.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="PhysX\geomutils\src\convex\GuConvexEdgeFlags.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="PhysX\geomutils\src\convex\GuConvexHelper.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="PhysX\geomutils\src\convex\GuConvexMesh.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="PhysX\geomutils\src\convex\GuConvexMeshData.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="PhysX\geomutils\src\convex\GuConvexSupportTable.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="PhysX\geomutils\src\convex\GuConvexUtilsInternal.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="PhysX\geomutils\src\convex\GuCubeIndex.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="PhysX\geomutils\src\convex\GuHillClimbing.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="PhysX\geomutils\src\convex\GuShapeConvex.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="PhysX\geomutils\src\distance\GuDistancePointBox.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="PhysX\geomutils\src\distance\GuDistancePointSegment.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="PhysX\geomutils\src\distance\GuDistancePointTriangle.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="PhysX\geomutils\src\distance\GuDistancePointTriangleSIMD.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="PhysX\geomutils\src\distance\GuDistanceSegmentSegmentSIMD.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="PhysX\geomutils\src\distance\GuDistanceSegmentTriangle.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="PhysX\geomutils\src\distance\GuDistanceSegmentTriangleSIMD.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="PhysX\geomutils\src\gjk\GuEPA.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="PhysX\geomutils\src\gjk\GuEPAFacet.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="PhysX\geomutils\src\gjk\GuGJK.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="PhysX\geomutils\src\gjk\GuGJKPenetration.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="PhysX\geomutils\src\gjk\GuGJKRaycast.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="PhysX\geomutils\src\gjk\GuGJKSimplex.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="PhysX\geomutils\src\gjk\GuGJKTest.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="PhysX\geomutils\src\gjk\GuGJKType.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="PhysX\geomutils\src\gjk\GuGJKUtil.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="PhysX\geomutils\src\gjk\GuVecBox.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="PhysX\geomutils\src\gjk\GuVecCapsule.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="PhysX\geomutils\src\gjk\GuVecConvex.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="PhysX\geomutils\src\gjk\GuVecConvexHull.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="PhysX\geomutils\src\gjk\GuVecConvexHullNoScale.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="PhysX\geomutils\src\gjk\GuVecPlane.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="PhysX\geomutils\src\gjk\GuVecSphere.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="PhysX\geomutils\src\gjk\GuVecTriangle.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="PhysX\geomutils\src\hf\GuEntityReport.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="PhysX\geomutils\src\hf\GuHeightField.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="PhysX\geomutils\src\hf\GuHeightFieldData.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="PhysX\geomutils\src\hf\GuHeightFieldUtil.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="PhysX\geomutils\src\intersection\GuIntersectionCapsuleTriangle.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="PhysX\geomutils\src\intersection\GuIntersectionEdgeEdge.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="PhysX\geomutils\src\intersection\GuIntersectionRay.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="PhysX\geomutils\src\intersection\GuIntersectionRayBox.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="PhysX\geomutils\src\intersection\GuIntersectionRayBoxSIMD.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="PhysX\geomutils\src\intersection\GuIntersectionRayCapsule.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="PhysX\geomutils\src\intersection\GuIntersectionRayPlane.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="PhysX\geomutils\src\intersection\GuIntersectionRaySphere.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="PhysX\geomutils\src\intersection\GuIntersectionRayTriangle.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="PhysX\geomutils\src\intersection\GuIntersectionSphereBox.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="PhysX\geomutils\src\mesh\GuBV4.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="PhysX\geomutils\src\mesh\GuBV4_AABBAABBSweepTest.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="PhysX\geomutils\src\mesh\GuBV4_BoxBoxOverlapTest.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="PhysX\geomutils\src\mesh\GuBV4_BoxOverlap_Internal.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="PhysX\geomutils\src\mesh\GuBV4_BoxSweep_Internal.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="PhysX\geomutils\src\mesh\GuBV4_BoxSweep_Params.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="PhysX\geomutils\src\mesh\GuBV4_CapsuleSweep_Internal.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="PhysX\geomutils\src\mesh\GuBV4_Common.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="PhysX\geomutils\src\mesh\GuBV4_Internal.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="PhysX\geomutils\src\mesh\GuBV4_ProcessStreamNoOrder_OBBOBB.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="PhysX\geomutils\src\mesh\GuBV4_ProcessStreamNoOrder_SegmentAABB.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="PhysX\geomutils\src\mesh\GuBV4_ProcessStreamNoOrder_SegmentAABB_Inflated.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="PhysX\geomutils\src\mesh\GuBV4_ProcessStreamNoOrder_SphereAABB.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="PhysX\geomutils\src\mesh\GuBV4_ProcessStreamOrdered_OBBOBB.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="PhysX\geomutils\src\mesh\GuBV4_ProcessStreamOrdered_SegmentAABB.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="PhysX\geomutils\src\mesh\GuBV4_ProcessStreamOrdered_SegmentAABB_Inflated.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="PhysX\geomutils\src\mesh\GuBV4_Slabs.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="PhysX\geomutils\src\mesh\GuBV4_Slabs_KajiyaNoOrder.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="PhysX\geomutils\src\mesh\GuBV4_Slabs_KajiyaOrdered.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="PhysX\geomutils\src\mesh\GuBV4_Slabs_SwizzledNoOrder.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="PhysX\geomutils\src\mesh\GuBV4_Slabs_SwizzledOrdered.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="PhysX\geomutils\src\mesh\GuBV4Build.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="PhysX\geomutils\src\mesh\GuBV4Settings.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="PhysX\geomutils\src\mesh\GuBV32.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="PhysX\geomutils\src\mesh\GuBV32Build.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="PhysX\geomutils\src\mesh\GuBVConstants.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="PhysX\geomutils\src\mesh\GuMeshData.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="PhysX\geomutils\src\mesh\GuMidphaseInterface.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="PhysX\geomutils\src\mesh\GuRTree.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="PhysX\geomutils\src\mesh\GuSweepConvexTri.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="PhysX\geomutils\src\mesh\GuSweepMesh.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="PhysX\geomutils\src\mesh\GuTriangle32.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="PhysX\geomutils\src\mesh\GuTriangleCache.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="PhysX\geomutils\src\mesh\GuTriangleMesh.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="PhysX\geomutils\src\mesh\GuTriangleMeshBV4.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="PhysX\geomutils\src\mesh\GuTriangleMeshRTree.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="PhysX\geomutils\src\mesh\GuTriangleVertexPointers.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="PhysX\geomutils\src\pcm\GuPCMContactConvexCommon.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="PhysX\geomutils\src\pcm\GuPCMContactGen.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="PhysX\geomutils\src\pcm\GuPCMContactGenUtil.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="PhysX\geomutils\src\pcm\GuPCMContactMeshCallback.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="PhysX\geomutils\src\pcm\GuPCMShapeConvex.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="PhysX\geomutils\src\pcm\GuPCMTriangleContactGen.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="PhysX\geomutils\src\pcm\GuPersistentContactManifold.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="PhysX\geomutils\src\sweep\GuSweepBoxBox.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="PhysX\geomutils\src\sweep\GuSweepBoxSphere.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="PhysX\geomutils\src\sweep\GuSweepBoxTriangle_FeatureBased.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="PhysX\geomutils\src\sweep\GuSweepBoxTriangle_SAT.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="PhysX\geomutils\src\sweep\GuSweepCapsuleBox.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="PhysX\geomutils\src\sweep\GuSweepCapsuleCapsule.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="PhysX\geomutils\src\sweep\GuSweepCapsuleTriangle.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="PhysX\geomutils\src\sweep\GuSweepSphereCapsule.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="PhysX\geomutils\src\sweep\GuSweepSphereSphere.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="PhysX\geomutils\src\sweep\GuSweepSphereTriangle.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="PhysX\geomutils\src\sweep\GuSweepTriangleUtils.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="PhysX\geomutils\src\GuAABBTreeBuild.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="PhysX\geomutils\src\GuAABBTreeQuery.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="PhysX\geomutils\src\GuBounds.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="PhysX\geomutils\src\GuBVHStructure.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="PhysX\geomutils\src\GuBVHTestsSIMD.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="PhysX\geomutils\src\GuCapsule.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="PhysX\geomutils\src\GuCenterExtents.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="PhysX\geomutils\src\GuGeometryUnion.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="PhysX\geomutils\src\GuInternal.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="PhysX\geomutils\src\GuMeshFactory.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="PhysX\geomutils\src\GuMTD.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="PhysX\geomutils\src\GuOverlapTests.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="PhysX\geomutils\src\GuSerialize.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="PhysX\geomutils\src\GuSphere.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="PhysX\geomutils\src\GuSweepMTD.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="PhysX\geomutils\src\GuSweepSharedTests.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="PhysX\geomutils\src\GuSweepTests.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="PhysX\include\characterkinematic\PxBoxController.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="PhysX\include\characterkinematic\PxCapsuleController.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="PhysX\include\characterkinematic\PxController.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="PhysX\include\characterkinematic\PxControllerBehavior.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="PhysX\include\characterkinematic\PxControllerManager.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="PhysX\include\characterkinematic\PxControllerObstacles.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="PhysX\include\characterkinematic\PxExtended.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="PhysX\include\collision\PxCollisionDefs.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="PhysX\include\common\windows\PxWindowsDelayLoadHook.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="PhysX\include\common\PxBase.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="PhysX\include\common\PxCollection.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="PhysX\include\common\PxCoreUtilityTypes.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="PhysX\include\common\PxMetaData.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="PhysX\include\common\PxMetaDataFlags.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="PhysX\include\common\PxPhysicsInsertionCallback.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="PhysX\include\common\PxPhysXCommonConfig.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="PhysX\include\common\PxProfileZone.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="PhysX\include\common\PxRenderBuffer.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="PhysX\include\common\PxSerialFramework.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="PhysX\include\common\PxSerializer.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="PhysX\include\common\PxStringTable.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="PhysX\include\common\PxTolerancesScale.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="PhysX\include\common\PxTypeInfo.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="PhysX\include\cooking\PxBVH33MidphaseDesc.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="PhysX\include\cooking\PxBVH34MidphaseDesc.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="PhysX\include\cooking\PxBVHStructureDesc.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="PhysX\include\cooking\Pxc.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="PhysX\include\cooking\PxConvexMeshDesc.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="PhysX\include\cooking\PxCooking.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="PhysX\include\cooking\PxMidphaseDesc.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="PhysX\include\cooking\PxTriangleMeshDesc.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="PhysX\include\cudamanager\PxCudaContextManager.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="PhysX\include\cudamanager\PxCudaMemoryManager.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="PhysX\include\extensions\PxBinaryConverter.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="PhysX\include\extensions\PxBroadPhaseExt.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="PhysX\include\extensions\PxCollectionExt.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="PhysX\include\extensions\PxConstraintExt.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="PhysX\include\extensions\PxContactJoint.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="PhysX\include\extensions\PxConvexMeshExt.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="PhysX\include\extensions\PxD6Joint.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="PhysX\include\extensions\PxD6JointCreate.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="PhysX\include\extensions\PxDefaultAllocator.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="PhysX\include\extensions\PxDefaultCpuDispatcher.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="PhysX\include\extensions\PxDefaultErrorCallback.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="PhysX\include\extensions\PxDefaultSimulationFilterShader.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="PhysX\include\extensions\PxDefaultStreams.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="PhysX\include\extensions\PxDistanceJoint.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="PhysX\include\extensions\PxExtensionsAPI.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="PhysX\include\extensions\PxFixedJoint.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="PhysX\include\extensions\PxJoint.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="PhysX\include\extensions\PxJointLimit.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="PhysX\include\extensions\PxMassProperties.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="PhysX\include\extensions\PxPrismaticJoint.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="PhysX\include\extensions\PxRaycastCCD.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="PhysX\include\extensions\PxRepXSerializer.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="PhysX\include\extensions\PxRepXSimpleType.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="PhysX\include\extensions\PxRevoluteJoint.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="PhysX\include\extensions\PxRigidActorExt.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="PhysX\include\extensions\PxRigidBodyExt.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="PhysX\include\extensions\PxSceneQueryExt.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="PhysX\include\extensions\PxSerialization.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="PhysX\include\extensions\PxShapeExt.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="PhysX\include\extensions\PxSimpleFactory.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="PhysX\include\extensions\PxSmoothNormals.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="PhysX\include\extensions\PxSphericalJoint.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="PhysX\include\extensions\PxStringTableExt.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="PhysX\include\extensions\PxTriangleMeshExt.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="PhysX\include\filebuf\PxFileBuf.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="PhysX\include\foundation\windows\PxWindowsIntrinsics.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="PhysX\include\foundation\Px.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="PhysX\include\foundation\PxAllocatorCallback.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="PhysX\include\foundation\PxAssert.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="PhysX\include\foundation\PxBitAndData.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="PhysX\include\foundation\PxBounds3.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="PhysX\include\foundation\PxErrorCallback.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="PhysX\include\foundation\PxErrors.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="PhysX\include\foundation\PxFlags.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="PhysX\include\foundation\PxFoundationConfig.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="PhysX\include\foundation\PxIntrinsics.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="PhysX\include\foundation\PxIO.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="PhysX\include\foundation\PxMat33.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="PhysX\include\foundation\PxMat44.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="PhysX\include\foundation\PxMath.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="PhysX\include\foundation\PxMathUtils.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="PhysX\include\foundation\PxMemory.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="PhysX\include\foundation\PxPlane.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="PhysX\include\foundation\PxPreprocessor.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="PhysX\include\foundation\PxProfiler.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="PhysX\include\foundation\PxQuat.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="PhysX\include\foundation\PxSharedAssert.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="PhysX\include\foundation\PxSimpleTypes.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="PhysX\include\foundation\PxStrideIterator.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="PhysX\include\foundation\PxTransform.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="PhysX\include\foundation\PxUnionCast.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="PhysX\include\foundation\PxVec2.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="PhysX\include\foundation\PxVec3.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="PhysX\include\foundation\PxVec4.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="PhysX\include\geometry\PxBoxGeometry.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="PhysX\include\geometry\PxBVHStructure.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="PhysX\include\geometry\PxCapsuleGeometry.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="PhysX\include\geometry\PxConvexMesh.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="PhysX\include\geometry\PxConvexMeshGeometry.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="PhysX\include\geometry\PxGeometry.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="PhysX\include\geometry\PxGeometryHelpers.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="PhysX\include\geometry\PxGeometryQuery.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="PhysX\include\geometry\PxHeightField.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="PhysX\include\geometry\PxHeightFieldDesc.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="PhysX\include\geometry\PxHeightFieldFlag.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="PhysX\include\geometry\PxHeightFieldGeometry.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="PhysX\include\geometry\PxHeightFieldSample.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="PhysX\include\geometry\PxMeshQuery.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="PhysX\include\geometry\PxMeshScale.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="PhysX\include\geometry\PxPlaneGeometry.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="PhysX\include\geometry\PxSimpleTriangleMesh.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="PhysX\include\geometry\PxSphereGeometry.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="PhysX\include\geometry\PxTriangle.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="PhysX\include\geometry\PxTriangleMesh.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="PhysX\include\geometry\PxTriangleMeshGeometry.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="PhysX\include\geomutils\GuContactBuffer.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="PhysX\include\geomutils\GuContactPoint.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="PhysX\include\gpu\PxGpu.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="PhysX\include\pvd\PxPvd.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="PhysX\include\pvd\PxPvdSceneClient.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="PhysX\include\pvd\PxPvdTransport.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="PhysX\include\solver\PxSolverDefs.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="PhysX\include\task\PxCpuDispatcher.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="PhysX\include\task\PxTask.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="PhysX\include\task\PxTaskDefine.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="PhysX\include\task\PxTaskManager.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="PhysX\include\vehicle\PxVehicleComponents.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="PhysX\include\vehicle\PxVehicleDrive.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="PhysX\include\vehicle\PxVehicleDrive4W.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="PhysX\include\vehicle\PxVehicleDriveNW.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="PhysX\include\vehicle\PxVehicleDriveTank.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="PhysX\include\vehicle\PxVehicleNoDrive.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="PhysX\include\vehicle\PxVehicleSDK.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="PhysX\include\vehicle\PxVehicleShaders.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="PhysX\include\vehicle\PxVehicleTireFriction.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="PhysX\include\vehicle\PxVehicleUpdate.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="PhysX\include\vehicle\PxVehicleUtil.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="PhysX\include\vehicle\PxVehicleUtilControl.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="PhysX\include\vehicle\PxVehicleUtilSetup.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="PhysX\include\vehicle\PxVehicleUtilTelemetry.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="PhysX\include\vehicle\PxVehicleWheels.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="PhysX\include\PxActor.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="PhysX\include\PxAggregate.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="PhysX\include\PxArticulation.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="PhysX\include\PxArticulationBase.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="PhysX\include\PxArticulationJoint.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="PhysX\include\PxArticulationJointReducedCoordinate.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="PhysX\include\PxArticulationLink.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="PhysX\include\PxArticulationReducedCoordinate.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="PhysX\include\PxBatchQuery.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="PhysX\include\PxBatchQueryDesc.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="PhysX\include\PxBroadPhase.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="PhysX\include\PxClient.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="PhysX\include\PxConfig.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="PhysX\include\PxConstraint.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="PhysX\include\PxConstraintDesc.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="PhysX\include\PxContact.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="PhysX\include\PxContactModifyCallback.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="PhysX\include\PxDeletionListener.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="PhysX\include\PxFiltering.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="PhysX\include\PxForceMode.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="PhysX\include\PxFoundation.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="PhysX\include\PxImmediateMode.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="PhysX\include\PxLockedData.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="PhysX\include\PxMaterial.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="PhysX\include\PxPhysics.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="PhysX\include\PxPhysicsAPI.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="PhysX\include\PxPhysicsSerialization.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="PhysX\include\PxPhysicsVersion.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="PhysX\include\PxPhysXConfig.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="PhysX\include\PxPruningStructure.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="PhysX\include\PxQueryFiltering.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="PhysX\include\PxQueryReport.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="PhysX\include\PxRigidActor.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="PhysX\include\PxRigidBody.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="PhysX\include\PxRigidDynamic.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="PhysX\include\PxRigidStatic.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="PhysX\include\PxScene.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="PhysX\include\PxSceneDesc.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="PhysX\include\PxSceneLock.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="PhysX\include\PxShape.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="PhysX\include\PxSimulationEventCallback.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="PhysX\include\PxSimulationStatistics.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="PhysX\include\PxVisualizationParameter.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="PhysX\lowlevel\api\include\PxsMaterialCore.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="PhysX\lowlevel\api\include\PxsMaterialManager.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="PhysX\lowlevel\api\include\PxvConfig.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="PhysX\lowlevel\api\include\PxvDynamics.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="PhysX\lowlevel\api\include\PxvGeometry.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="PhysX\lowlevel\api\include\PxvGlobals.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="PhysX\lowlevel\api\include\PxvManager.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="PhysX\lowlevel\api\include\PxvSimStats.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="PhysX\lowlevel\common\include\collision\PxcContactMethodImpl.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="PhysX\lowlevel\common\include\pipeline\PxcConstraintBlockStream.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="PhysX\lowlevel\common\include\pipeline\PxcContactCache.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="PhysX\lowlevel\common\include\pipeline\PxcMaterialMethodImpl.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="PhysX\lowlevel\common\include\pipeline\PxcNpBatch.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="PhysX\lowlevel\common\include\pipeline\PxcNpCache.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="PhysX\lowlevel\common\include\pipeline\PxcNpCacheStreamPair.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="PhysX\lowlevel\common\include\pipeline\PxcNpContactPrepShared.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="PhysX\lowlevel\common\include\pipeline\PxcNpMemBlockPool.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="PhysX\lowlevel\common\include\pipeline\PxcNpThreadContext.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="PhysX\lowlevel\common\include\pipeline\PxcNpWorkUnit.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="PhysX\lowlevel\common\include\utils\PxcScratchAllocator.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="PhysX\lowlevel\common\include\utils\PxcThreadCoherentCache.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="PhysX\lowlevel\software\include\PxsBodySim.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="PhysX\lowlevel\software\include\PxsCCD.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="PhysX\lowlevel\software\include\PxsContactManager.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="PhysX\lowlevel\software\include\PxsContactManagerState.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="PhysX\lowlevel\software\include\PxsContext.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="PhysX\lowlevel\software\include\PxsDefaultMemoryManager.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="PhysX\lowlevel\software\include\PxsHeapMemoryAllocator.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="PhysX\lowlevel\software\include\PxsIncrementalConstraintPartitioning.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="PhysX\lowlevel\software\include\PxsIslandManagerTypes.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="PhysX\lowlevel\software\include\PxsIslandNodeIndex.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="PhysX\lowlevel\software\include\PxsIslandSim.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="PhysX\lowlevel\software\include\PxsKernelWrangler.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="PhysX\lowlevel\software\include\PxsMaterialCombiner.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="PhysX\lowlevel\software\include\PxsMemoryManager.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="PhysX\lowlevel\software\include\PxsNphaseImplementationContext.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="PhysX\lowlevel\software\include\PxsRigidBody.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="PhysX\lowlevel\software\include\PxsShapeSim.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="PhysX\lowlevel\software\include\PxsSimpleIslandManager.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="PhysX\lowlevel\software\include\PxsSimulationController.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="PhysX\lowlevel\software\include\PxsTransformCache.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="PhysX\lowlevel\software\include\PxvNphaseImplementationContext.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="PhysX\lowlevelaabb\include\BpAABBManager.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="PhysX\lowlevelaabb\include\BpAABBManagerTasks.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="PhysX\lowlevelaabb\include\BpBroadPhase.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="PhysX\lowlevelaabb\include\BpBroadPhaseUpdate.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="PhysX\lowlevelaabb\src\BpBroadPhaseABP.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="PhysX\lowlevelaabb\src\BpBroadPhaseMBP.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="PhysX\lowlevelaabb\src\BpBroadPhaseMBPCommon.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="PhysX\lowlevelaabb\src\BpBroadPhaseSap.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="PhysX\lowlevelaabb\src\BpBroadPhaseSapAux.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="PhysX\lowlevelaabb\src\BpBroadPhaseShared.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="PhysX\lowlevelaabb\src\BpMBPTasks.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="PhysX\lowlevelaabb\src\BpSAPTasks.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="PhysX\lowleveldynamics\include\DyArticulation.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="PhysX\lowleveldynamics\include\DyArticulationCore.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="PhysX\lowleveldynamics\include\DyArticulationJointCore.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="PhysX\lowleveldynamics\include\DyConstraint.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="PhysX\lowleveldynamics\include\DyConstraintWriteBack.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="PhysX\lowleveldynamics\include\DyContext.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="PhysX\lowleveldynamics\include\DyFeatherstoneArticulation.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="PhysX\lowleveldynamics\include\DyFeatherstoneArticulationJointData.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="PhysX\lowleveldynamics\include\DyFeatherstoneArticulationUtils.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="PhysX\lowleveldynamics\include\DySleepingConfigulation.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="PhysX\lowleveldynamics\include\DyThresholdTable.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="PhysX\lowleveldynamics\include\DyVArticulation.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="PhysX\lowleveldynamics\src\DyArticulationContactPrep.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="PhysX\lowleveldynamics\src\DyArticulationFnsDebug.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="PhysX\lowleveldynamics\src\DyArticulationFnsScalar.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="PhysX\lowleveldynamics\src\DyArticulationFnsSimd.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="PhysX\lowleveldynamics\src\DyArticulationHelper.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="PhysX\lowleveldynamics\src\DyArticulationPImpl.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="PhysX\lowleveldynamics\src\DyArticulationReference.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="PhysX\lowleveldynamics\src\DyArticulationScalar.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="PhysX\lowleveldynamics\src\DyArticulationUtils.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="PhysX\lowleveldynamics\src\DyBodyCoreIntegrator.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="PhysX\lowleveldynamics\src\DyConstraintPartition.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="PhysX\lowleveldynamics\src\DyConstraintPrep.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="PhysX\lowleveldynamics\src\DyContactPrep.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="PhysX\lowleveldynamics\src\DyContactPrepShared.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="PhysX\lowleveldynamics\src\DyContactReduction.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="PhysX\lowleveldynamics\src\DyCorrelationBuffer.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="PhysX\lowleveldynamics\src\DyDynamics.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="PhysX\lowleveldynamics\src\DyFeatherstoneArticulationLink.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="PhysX\lowleveldynamics\src\DyFrictionPatch.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="PhysX\lowleveldynamics\src\DyFrictionPatchStreamPair.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="PhysX\lowleveldynamics\src\DySolverBody.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="PhysX\lowleveldynamics\src\DySolverConstraint1D.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="PhysX\lowleveldynamics\src\DySolverConstraint1D4.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="PhysX\lowleveldynamics\src\DySolverConstraint1DStep.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="PhysX\lowleveldynamics\src\DySolverConstraintDesc.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="PhysX\lowleveldynamics\src\DySolverConstraintExtShared.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="PhysX\lowleveldynamics\src\DySolverConstraintsShared.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="PhysX\lowleveldynamics\src\DySolverConstraintTypes.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="PhysX\lowleveldynamics\src\DySolverContact.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="PhysX\lowleveldynamics\src\DySolverContact4.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="PhysX\lowleveldynamics\src\DySolverContactPF.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="PhysX\lowleveldynamics\src\DySolverContactPF4.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="PhysX\lowleveldynamics\src\DySolverContext.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="PhysX\lowleveldynamics\src\DySolverControl.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="PhysX\lowleveldynamics\src\DySolverControlPF.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="PhysX\lowleveldynamics\src\DySolverCore.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="PhysX\lowleveldynamics\src\DySolverExt.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="PhysX\lowleveldynamics\src\DySpatial.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="PhysX\lowleveldynamics\src\DyTGSContactPrep.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="PhysX\lowleveldynamics\src\DyTGSDynamics.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="PhysX\lowleveldynamics\src\DyThreadContext.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="PhysX\physx\src\buffering\ScbActor.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="PhysX\physx\src\buffering\ScbAggregate.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="PhysX\physx\src\buffering\ScbArticulation.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="PhysX\physx\src\buffering\ScbArticulationJoint.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="PhysX\physx\src\buffering\ScbBase.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="PhysX\physx\src\buffering\ScbBody.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="PhysX\physx\src\buffering\ScbConstraint.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="PhysX\physx\src\buffering\ScbDefs.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="PhysX\physx\src\buffering\ScbNpDeps.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="PhysX\physx\src\buffering\ScbRigidObject.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="PhysX\physx\src\buffering\ScbRigidStatic.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="PhysX\physx\src\buffering\ScbScene.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="PhysX\physx\src\buffering\ScbSceneBuffer.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="PhysX\physx\src\buffering\ScbScenePvdClient.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="PhysX\physx\src\buffering\ScbShape.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="PhysX\physx\src\buffering\ScbType.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="PhysX\physx\src\device\nvPhysXtoDrv.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="PhysX\physx\src\device\PhysXIndicator.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="PhysX\physx\src\NpActor.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="PhysX\physx\src\NpActorTemplate.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="PhysX\physx\src\NpAggregate.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="PhysX\physx\src\NpArticulation.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="PhysX\physx\src\NpArticulationJoint.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="PhysX\physx\src\NpArticulationJointReducedCoordinate.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="PhysX\physx\src\NpArticulationLink.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="PhysX\physx\src\NpArticulationReducedCoordinate.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="PhysX\physx\src\NpArticulationTemplate.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="PhysX\physx\src\NpBatchQuery.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="PhysX\physx\src\NpCast.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="PhysX\physx\src\NpConnector.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="PhysX\physx\src\NpConstraint.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="PhysX\physx\src\NpFactory.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="PhysX\physx\src\NpMaterial.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="PhysX\physx\src\NpMaterialManager.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="PhysX\physx\src\NpPhysics.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="PhysX\physx\src\NpPhysicsInsertionCallback.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="PhysX\physx\src\NpPtrTableStorageManager.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="PhysX\physx\src\NpPvdSceneQueryCollector.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="PhysX\physx\src\NpQueryShared.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="PhysX\physx\src\NpReadCheck.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="PhysX\physx\src\NpRigidActorTemplate.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="PhysX\physx\src\NpRigidActorTemplateInternal.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="PhysX\physx\src\NpRigidBodyTemplate.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="PhysX\physx\src\NpRigidDynamic.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="PhysX\physx\src\NpRigidStatic.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="PhysX\physx\src\NpScene.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="PhysX\physx\src\NpSceneAccessor.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="PhysX\physx\src\NpSceneQueries.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="PhysX\physx\src\NpShape.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="PhysX\physx\src\NpShapeManager.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="PhysX\physx\src\NpWriteCheck.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="PhysX\physx\src\PvdMetaDataBindingData.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="PhysX\physx\src\PvdMetaDataPvdBinding.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="PhysX\physx\src\PvdPhysicsClient.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="PhysX\physx\src\PvdTypeNames.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="PhysX\physxcharacterkinematic\src\CctBoxController.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="PhysX\physxcharacterkinematic\src\CctCapsuleController.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="PhysX\physxcharacterkinematic\src\CctCharacterController.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="PhysX\physxcharacterkinematic\src\CctCharacterControllerManager.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="PhysX\physxcharacterkinematic\src\CctController.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="PhysX\physxcharacterkinematic\src\CctInternalStructs.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="PhysX\physxcharacterkinematic\src\CctObstacleContext.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="PhysX\physxcharacterkinematic\src\CctSweptBox.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="PhysX\physxcharacterkinematic\src\CctSweptCapsule.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="PhysX\physxcharacterkinematic\src\CctSweptVolume.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="PhysX\physxcharacterkinematic\src\CctUtils.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="PhysX\physxcooking\src\convex\BigConvexDataBuilder.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="PhysX\physxcooking\src\convex\ConvexHullBuilder.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="PhysX\physxcooking\src\convex\ConvexHullLib.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="PhysX\physxcooking\src\convex\ConvexHullUtils.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="PhysX\physxcooking\src\convex\ConvexMeshBuilder.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="PhysX\physxcooking\src\convex\ConvexPolygonsBuilder.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="PhysX\physxcooking\src\convex\QuickHullConvexHullLib.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="PhysX\physxcooking\src\convex\VolumeIntegration.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="PhysX\physxcooking\src\mesh\GrbTriangleMeshCooking.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="PhysX\physxcooking\src\mesh\HeightFieldCooking.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="PhysX\physxcooking\src\mesh\MeshBuilder.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="PhysX\physxcooking\src\mesh\QuickSelect.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="PhysX\physxcooking\src\mesh\RTreeCooking.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="PhysX\physxcooking\src\mesh\TriangleMeshBuilder.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="PhysX\physxcooking\src\Adjacencies.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="PhysX\physxcooking\src\BVHStructureBuilder.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="PhysX\physxcooking\src\Cooking.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="PhysX\physxcooking\src\CookingUtils.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="PhysX\physxcooking\src\EdgeList.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="PhysX\physxcooking\src\MeshCleaner.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="PhysX\physxcooking\src\Quantizer.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="PhysX\physxextensions\src\serialization\Binary\SnConvX.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="PhysX\physxextensions\src\serialization\Binary\SnConvX_Align.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="PhysX\physxextensions\src\serialization\Binary\SnConvX_Common.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="PhysX\physxextensions\src\serialization\Binary\SnConvX_MetaData.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="PhysX\physxextensions\src\serialization\Binary\SnConvX_Output.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="PhysX\physxextensions\src\serialization\Binary\SnConvX_Union.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="PhysX\physxextensions\src\serialization\Binary\SnSerializationContext.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="PhysX\physxextensions\src\serialization\File\SnFile.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="PhysX\physxextensions\src\serialization\Xml\SnJointRepXSerializer.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="PhysX\physxextensions\src\serialization\Xml\SnPxStreamOperators.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="PhysX\physxextensions\src\serialization\Xml\SnRepX1_0Defaults.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="PhysX\physxextensions\src\serialization\Xml\SnRepX3_1Defaults.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="PhysX\physxextensions\src\serialization\Xml\SnRepX3_2Defaults.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="PhysX\physxextensions\src\serialization\Xml\SnRepXCollection.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="PhysX\physxextensions\src\serialization\Xml\SnRepXCoreSerializer.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="PhysX\physxextensions\src\serialization\Xml\SnRepXSerializerImpl.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="PhysX\physxextensions\src\serialization\Xml\SnRepXUpgrader.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="PhysX\physxextensions\src\serialization\Xml\SnSimpleXmlWriter.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="PhysX\physxextensions\src\serialization\Xml\SnXmlDeserializer.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="PhysX\physxextensions\src\serialization\Xml\SnXmlImpl.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="PhysX\physxextensions\src\serialization\Xml\SnXmlMemoryAllocator.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="PhysX\physxextensions\src\serialization\Xml\SnXmlMemoryPool.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="PhysX\physxextensions\src\serialization\Xml\SnXmlMemoryPoolStreams.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="PhysX\physxextensions\src\serialization\Xml\SnXmlReader.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="PhysX\physxextensions\src\serialization\Xml\SnXmlSerializer.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="PhysX\physxextensions\src\serialization\Xml\SnXmlSimpleXmlWriter.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="PhysX\physxextensions\src\serialization\Xml\SnXmlStringToType.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="PhysX\physxextensions\src\serialization\Xml\SnXmlVisitorReader.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="PhysX\physxextensions\src\serialization\Xml\SnXmlVisitorWriter.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="PhysX\physxextensions\src\serialization\Xml\SnXmlWriter.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="PhysX\physxextensions\src\serialization\SnSerializationRegistry.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="PhysX\physxextensions\src\serialization\SnSerialUtils.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="PhysX\physxextensions\src\ExtConstraintHelper.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="PhysX\physxextensions\src\ExtContactJoint.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="PhysX\physxextensions\src\ExtCpuWorkerThread.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="PhysX\physxextensions\src\ExtD6Joint.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="PhysX\physxextensions\src\ExtDefaultCpuDispatcher.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="PhysX\physxextensions\src\ExtDistanceJoint.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="PhysX\physxextensions\src\ExtFixedJoint.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="PhysX\physxextensions\src\ExtInertiaTensor.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="PhysX\physxextensions\src\ExtJoint.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="PhysX\physxextensions\src\ExtJointData.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="PhysX\physxextensions\src\ExtJointMetaDataExtensions.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="PhysX\physxextensions\src\ExtPlatform.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="PhysX\physxextensions\src\ExtPrismaticJoint.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="PhysX\physxextensions\src\ExtPvd.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="PhysX\physxextensions\src\ExtRevoluteJoint.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="PhysX\physxextensions\src\ExtSerialization.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="PhysX\physxextensions\src\ExtSharedQueueEntryPool.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="PhysX\physxextensions\src\ExtSphericalJoint.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="PhysX\physxextensions\src\ExtTaskQueueHelper.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="PhysX\physxgpu\include\PxPhysXGpu.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="PhysX\physxmetadata\core\include\PvdMetaDataDefineProperties.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="PhysX\physxmetadata\core\include\PvdMetaDataExtensions.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="PhysX\physxmetadata\core\include\PvdMetaDataPropertyVisitor.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="PhysX\physxmetadata\core\include\PxAutoGeneratedMetaDataObjectNames.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="PhysX\physxmetadata\core\include\PxAutoGeneratedMetaDataObjects.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="PhysX\physxmetadata\core\include\PxMetaDataCompare.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="PhysX\physxmetadata\core\include\PxMetaDataCppPrefix.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="PhysX\physxmetadata\core\include\PxMetaDataObjects.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="PhysX\physxmetadata\core\include\RepXMetaDataPropertyVisitor.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="PhysX\physxmetadata\extensions\include\PxExtensionAutoGeneratedMetaDataObjectNames.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="PhysX\physxmetadata\extensions\include\PxExtensionAutoGeneratedMetaDataObjects.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="PhysX\physxmetadata\extensions\include\PxExtensionMetaDataObjects.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="PhysX\physxvehicle\src\physxmetadata\include\PxVehicleAutoGeneratedMetaDataObjectNames.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="PhysX\physxvehicle\src\physxmetadata\include\PxVehicleAutoGeneratedMetaDataObjects.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="PhysX\physxvehicle\src\physxmetadata\include\PxVehicleMetaDataObjects.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="PhysX\physxvehicle\src\PxVehicleDefaults.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="PhysX\physxvehicle\src\PxVehicleLinearMath.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="PhysX\physxvehicle\src\PxVehicleSerialization.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="PhysX\physxvehicle\src\PxVehicleSuspLimitConstraintShader.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="PhysX\physxvehicle\src\PxVehicleSuspWheelTire4.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="PhysX\pvd\include\PsPvd.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="PhysX\pvd\include\PxProfileAllocatorWrapper.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="PhysX\pvd\include\PxPvdClient.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="PhysX\pvd\include\PxPvdDataStream.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="PhysX\pvd\include\PxPvdDataStreamHelpers.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="PhysX\pvd\include\PxPvdErrorCodes.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="PhysX\pvd\include\PxPvdObjectModelBaseTypes.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="PhysX\pvd\include\PxPvdRenderBuffer.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="PhysX\pvd\include\PxPvdUserRenderer.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="PhysX\pvd\src\PxProfileContextProvider.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="PhysX\pvd\src\PxProfileContextProviderImpl.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="PhysX\pvd\src\PxProfileDataBuffer.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="PhysX\pvd\src\PxProfileDataParsing.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="PhysX\pvd\src\PxProfileEventBuffer.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="PhysX\pvd\src\PxProfileEventBufferAtomic.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="PhysX\pvd\src\PxProfileEventBufferClient.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="PhysX\pvd\src\PxProfileEventBufferClientManager.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="PhysX\pvd\src\PxProfileEventId.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="PhysX\pvd\src\PxProfileEventMutex.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="PhysX\pvd\src\PxProfileEventNames.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="PhysX\pvd\src\PxProfileEvents.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="PhysX\pvd\src\PxProfileEventSender.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="PhysX\pvd\src\PxProfileEventSerialization.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="PhysX\pvd\src\PxProfileMemory.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="PhysX\pvd\src\PxProfileMemoryBuffer.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="PhysX\pvd\src\PxProfileMemoryEventBuffer.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="PhysX\pvd\src\PxProfileMemoryEvents.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="PhysX\pvd\src\PxProfileScopedEvent.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="PhysX\pvd\src\PxProfileScopedMutexLock.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="PhysX\pvd\src\PxProfileZoneImpl.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="PhysX\pvd\src\PxProfileZoneManager.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="PhysX\pvd\src\PxProfileZoneManagerImpl.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="PhysX\pvd\src\PxPvdBits.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="PhysX\pvd\src\PxPvdByteStreams.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="PhysX\pvd\src\PxPvdCommStreamEvents.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="PhysX\pvd\src\PxPvdCommStreamEventSink.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="PhysX\pvd\src\PxPvdCommStreamTypes.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="PhysX\pvd\src\PxPvdDefaultFileTransport.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="PhysX\pvd\src\PxPvdDefaultSocketTransport.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="PhysX\pvd\src\PxPvdFoundation.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="PhysX\pvd\src\PxPvdImpl.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="PhysX\pvd\src\PxPvdInternalByteStreams.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="PhysX\pvd\src\PxPvdMarshalling.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="PhysX\pvd\src\PxPvdMemClient.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="PhysX\pvd\src\PxPvdObjectModelInternalTypeDefs.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="PhysX\pvd\src\PxPvdObjectModelInternalTypes.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="PhysX\pvd\src\PxPvdObjectModelMetaData.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="PhysX\pvd\src\PxPvdObjectRegistrar.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="PhysX\pvd\src\PxPvdProfileZone.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="PhysX\pvd\src\PxPvdProfileZoneClient.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="PhysX\pvd\src\PxPvdUserRenderImpl.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="PhysX\pvd\src\PxPvdUserRenderTypes.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="PhysX\scenequery\include\SqPruner.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="PhysX\scenequery\include\SqPrunerMergeData.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="PhysX\scenequery\include\SqPruningStructure.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="PhysX\scenequery\include\SqSceneQueryManager.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="PhysX\scenequery\src\SqAABBPruner.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="PhysX\scenequery\src\SqAABBTree.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="PhysX\scenequery\src\SqAABBTreeUpdateMap.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="PhysX\scenequery\src\SqBounds.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="PhysX\scenequery\src\SqBucketPruner.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="PhysX\scenequery\src\SqCompoundPruner.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="PhysX\scenequery\src\SqCompoundPruningPool.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="PhysX\scenequery\src\SqExtendedBucketPruner.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="PhysX\scenequery\src\SqIncrementalAABBPruner.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="PhysX\scenequery\src\SqIncrementalAABBPrunerCore.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="PhysX\scenequery\src\SqIncrementalAABBTree.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="PhysX\scenequery\src\SqPruningPool.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="PhysX\scenequery\src\SqTypedef.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="PhysX\simulationcontroller\include\ScActorCore.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="PhysX\simulationcontroller\include\ScArticulationCore.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="PhysX\simulationcontroller\include\ScArticulationJointCore.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="PhysX\simulationcontroller\include\ScBodyCore.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="PhysX\simulationcontroller\include\ScConstraintCore.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="PhysX\simulationcontroller\include\ScIterators.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="PhysX\simulationcontroller\include\ScMaterialCore.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="PhysX\simulationcontroller\include\ScPhysics.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="PhysX\simulationcontroller\include\ScRigidCore.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="PhysX\simulationcontroller\include\ScScene.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="PhysX\simulationcontroller\include\ScShapeCore.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="PhysX\simulationcontroller\include\ScStaticCore.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="PhysX\simulationcontroller\src\ScActorPair.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="PhysX\simulationcontroller\src\ScActorSim.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="PhysX\simulationcontroller\src\ScArticulationJointSim.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="PhysX\simulationcontroller\src\ScArticulationSim.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="PhysX\simulationcontroller\src\ScBodySim.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="PhysX\simulationcontroller\src\ScClient.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="PhysX\simulationcontroller\src\ScConstraintGroupNode.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="PhysX\simulationcontroller\src\ScConstraintInteraction.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="PhysX\simulationcontroller\src\ScConstraintProjectionManager.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="PhysX\simulationcontroller\src\ScConstraintProjectionTree.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="PhysX\simulationcontroller\src\ScConstraintSim.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="PhysX\simulationcontroller\src\ScContactReportBuffer.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="PhysX\simulationcontroller\src\ScContactStream.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="PhysX\simulationcontroller\src\ScElementInteractionMarker.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="PhysX\simulationcontroller\src\ScElementSim.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="PhysX\simulationcontroller\src\ScElementSimInteraction.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="PhysX\simulationcontroller\src\ScInteraction.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="PhysX\simulationcontroller\src\ScInteractionFlags.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="PhysX\simulationcontroller\src\ScNPhaseCore.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="PhysX\simulationcontroller\src\ScObjectIDTracker.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="PhysX\simulationcontroller\src\ScRigidSim.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="PhysX\simulationcontroller\src\ScShapeInteraction.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="PhysX\simulationcontroller\src\ScShapeSim.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="PhysX\simulationcontroller\src\ScSimStateData.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="PhysX\simulationcontroller\src\ScSimStats.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="PhysX\simulationcontroller\src\ScSimulationController.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="PhysX\simulationcontroller\src\ScSqBoundsManager.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="PhysX\simulationcontroller\src\ScStaticSim.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="PhysX\simulationcontroller\src\ScTriggerInteraction.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="PhysX\simulationcontroller\src\ScTriggerPairs.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Extend\AComponents.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Extend\ResourceLoader.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="EasyDevelop\ActorCom.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="EasyDevelop\SceneCom.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="EasyDevelop\EasyDef.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="EasyDevelop\GameObject.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="EasyDevelop\Camera.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Extend\EngineDefault.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Internal\Include\Audio.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Internal\Include\AudioPlayer.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Internal\Include\CWaveFile.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Internal\Include\Engine.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Internal\Include\Input.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Internal\Include\PhysicsManager.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Internal\Include\PhysicsScene.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Internal\Include\Renderer.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Internal\Include\Scene.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Internal\Include\Timer.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Internal\Include\CustomTextRenderer.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Internal\Include\RenderTarget.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Internal\Include\Texture.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Interface\IActor.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Interface\IAComponent.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Interface\IAudio.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Interface\IAudioPlayer.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Interface\IVirtualBase.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Interface\IVirtualEngine.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Interface\IInput.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Interface\IPhysicsActor.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Interface\IPhysicsManager.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Interface\IPhysicsScene.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Interface\IRenderable.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Interface\IRenderer.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Interface\IRenderTarget.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Interface\IScene.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Interface\ISComponent.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Interface\ITexture.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Interface\ITimer.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Common\EngineCommon.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Common\EngineDef.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Interface\ITextFormat.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Internal\Include\TextFormat.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Internal\Include\FontLoader.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Internal\Include\MiscFunc.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Interface\IRenderTargetTreeView.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Interface\IRenderTargetTreeNode.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Internal\Include\RenderTargetTreeNode.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Internal\Include\RenderTargetTreeView.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Interface\IProvideRenderTarget.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Interface\IDelegate.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Interface\IAContainer.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Interface\ICamera.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Internal\Include\Common.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="DXMaster\Include\Audio.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="DXMaster\Include\BufferHelpers.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="DXMaster\Include\CommonStates.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="DXMaster\Include\DDSTextureLoader.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="DXMaster\Include\DirectXHelpers.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="DXMaster\Include\Effects.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="DXMaster\Include\GamePad.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="DXMaster\Include\GeometricPrimitive.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="DXMaster\Include\GraphicsMemory.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="DXMaster\Include\Keyboard.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="DXMaster\Include\Model.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="DXMaster\Include\Mouse.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="DXMaster\Include\PostProcess.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="DXMaster\Include\PrimitiveBatch.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="DXMaster\Include\ScreenGrab.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="DXMaster\Include\SimpleMath.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="DXMaster\Include\SpriteBatch.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="DXMaster\Include\SpriteFont.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="DXMaster\Include\VertexTypes.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="DXMaster\Include\WICTextureLoader.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="DXMaster\Source\AlignedNew.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="DXMaster\Source\Bezier.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="DXMaster\Source\BinaryReader.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="DXMaster\Source\DDS.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="DXMaster\Source\DemandCreate.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="DXMaster\Source\EffectCommon.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="DXMaster\Source\Geometry.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="DXMaster\Source\LoaderHelpers.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="DXMaster\Source\pch.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="DXMaster\Source\PlatformHelpers.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="DXMaster\Source\SDKMesh.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="DXMaster\Source\SharedResourcePool.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="DXMaster\Source\vbo.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="FXMaster\Binary\EffectBinaryFormat.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="FXMaster\Binary\EffectStateBase11.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="FXMaster\Binary\EffectStates11.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="FXMaster\Binary\SOParser.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="FXMaster\Source\Effect.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="FXMaster\Source\EffectLoad.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="FXMaster\Source\IUnknownImp.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="FXMaster\Source\pchfx.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="FXMaster\Include\d3dx11effect.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="FXMaster\Include\d3dxGlobal.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="DXMaster\Audio\SoundCommon.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="DXMaster\Audio\WaveBankReader.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="DXMaster\Audio\WAVFileReader.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Interface\IAudioInstance.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Internal\Include\AudioInstance.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Extend\LinearMath.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Internal\Include\DynamicAudioInstance.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Interface\IDynamicAudioInstance.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Interface\IBuffer.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Internal\Include\Buffer.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="PhysX\common\src\windows\CmWindowsDelayLoadHook.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="PhysX\common\src\windows\CmWindowsModuleUpdateLoader.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="PhysX\common\src\CmCollection.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="PhysX\common\src\CmMathUtils.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="PhysX\common\src\CmPtrTable.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="PhysX\common\src\CmRadixSort.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="PhysX\common\src\CmRadixSortBuffered.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="PhysX\common\src\CmRenderOutput.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="PhysX\common\src\CmVisualization.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="PhysX\fastxml\src\PsFastXml.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="PhysX\foundation\src\windows\PsUWPThread.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="PhysX\foundation\src\windows\PsWindowsAtomic.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="PhysX\foundation\src\windows\PsWindowsCpu.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="PhysX\foundation\src\windows\PsWindowsFPU.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="PhysX\foundation\src\windows\PsWindowsMutex.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="PhysX\foundation\src\windows\PsWindowsPrintString.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="PhysX\foundation\src\windows\PsWindowsSList.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="PhysX\foundation\src\windows\PsWindowsSocket.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="PhysX\foundation\src\windows\PsWindowsSync.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="PhysX\foundation\src\windows\PsWindowsThread.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="PhysX\foundation\src\windows\PsWindowsTime.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="PhysX\foundation\src\PsAllocator.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="PhysX\foundation\src\PsAssert.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="PhysX\foundation\src\PsFoundation.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="PhysX\foundation\src\PsMathUtils.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="PhysX\foundation\src\PsString.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="PhysX\foundation\src\PsTempAllocator.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="PhysX\foundation\src\PsUtilities.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="PhysX\geomutils\src\ccd\GuCCDSweepConvexMesh.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="PhysX\geomutils\src\ccd\GuCCDSweepPrimitives.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="PhysX\geomutils\src\common\GuBarycentricCoordinates.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="PhysX\geomutils\src\common\GuSeparatingAxes.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="PhysX\geomutils\src\contact\GuContactBoxBox.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="PhysX\geomutils\src\contact\GuContactCapsuleBox.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="PhysX\geomutils\src\contact\GuContactCapsuleCapsule.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="PhysX\geomutils\src\contact\GuContactCapsuleConvex.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="PhysX\geomutils\src\contact\GuContactCapsuleMesh.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="PhysX\geomutils\src\contact\GuContactConvexConvex.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="PhysX\geomutils\src\contact\GuContactConvexMesh.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="PhysX\geomutils\src\contact\GuContactPlaneBox.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="PhysX\geomutils\src\contact\GuContactPlaneCapsule.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="PhysX\geomutils\src\contact\GuContactPlaneConvex.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="PhysX\geomutils\src\contact\GuContactPolygonPolygon.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="PhysX\geomutils\src\contact\GuContactSphereBox.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="PhysX\geomutils\src\contact\GuContactSphereCapsule.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="PhysX\geomutils\src\contact\GuContactSphereMesh.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="PhysX\geomutils\src\contact\GuContactSpherePlane.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="PhysX\geomutils\src\contact\GuContactSphereSphere.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="PhysX\geomutils\src\contact\GuFeatureCode.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="PhysX\geomutils\src\convex\GuBigConvexData.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="PhysX\geomutils\src\convex\GuConvexHelper.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="PhysX\geomutils\src\convex\GuConvexMesh.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="PhysX\geomutils\src\convex\GuConvexSupportTable.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="PhysX\geomutils\src\convex\GuConvexUtilsInternal.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="PhysX\geomutils\src\convex\GuHillClimbing.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="PhysX\geomutils\src\convex\GuShapeConvex.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="PhysX\geomutils\src\distance\GuDistancePointBox.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="PhysX\geomutils\src\distance\GuDistancePointTriangle.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="PhysX\geomutils\src\distance\GuDistanceSegmentBox.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="PhysX\geomutils\src\distance\GuDistanceSegmentSegment.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="PhysX\geomutils\src\distance\GuDistanceSegmentTriangle.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="PhysX\geomutils\src\gjk\GuEPA.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="PhysX\geomutils\src\gjk\GuGJKSimplex.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="PhysX\geomutils\src\gjk\GuGJKTest.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="PhysX\geomutils\src\hf\GuHeightField.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="PhysX\geomutils\src\hf\GuHeightFieldUtil.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="PhysX\geomutils\src\hf\GuOverlapTestsHF.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="PhysX\geomutils\src\hf\GuSweepsHF.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="PhysX\geomutils\src\intersection\GuIntersectionBoxBox.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="PhysX\geomutils\src\intersection\GuIntersectionCapsuleTriangle.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="PhysX\geomutils\src\intersection\GuIntersectionEdgeEdge.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="PhysX\geomutils\src\intersection\GuIntersectionRayBox.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="PhysX\geomutils\src\intersection\GuIntersectionRayCapsule.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="PhysX\geomutils\src\intersection\GuIntersectionRaySphere.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="PhysX\geomutils\src\intersection\GuIntersectionSphereBox.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="PhysX\geomutils\src\intersection\GuIntersectionTriangleBox.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="PhysX\geomutils\src\mesh\GuBV4.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="PhysX\geomutils\src\mesh\GuBV4_AABBSweep.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="PhysX\geomutils\src\mesh\GuBV4_BoxOverlap.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="PhysX\geomutils\src\mesh\GuBV4_CapsuleSweep.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="PhysX\geomutils\src\mesh\GuBV4_CapsuleSweepAA.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="PhysX\geomutils\src\mesh\GuBV4_OBBSweep.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="PhysX\geomutils\src\mesh\GuBV4_Raycast.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="PhysX\geomutils\src\mesh\GuBV4_SphereOverlap.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="PhysX\geomutils\src\mesh\GuBV4_SphereSweep.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="PhysX\geomutils\src\mesh\GuBV4Build.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="PhysX\geomutils\src\mesh\GuBV32.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="PhysX\geomutils\src\mesh\GuBV32Build.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="PhysX\geomutils\src\mesh\GuMeshQuery.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="PhysX\geomutils\src\mesh\GuMidphaseBV4.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="PhysX\geomutils\src\mesh\GuMidphaseRTree.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="PhysX\geomutils\src\mesh\GuOverlapTestsMesh.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="PhysX\geomutils\src\mesh\GuRTree.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="PhysX\geomutils\src\mesh\GuRTreeQueries.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="PhysX\geomutils\src\mesh\GuSweepsMesh.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="PhysX\geomutils\src\mesh\GuTriangleMesh.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="PhysX\geomutils\src\mesh\GuTriangleMeshBV4.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="PhysX\geomutils\src\mesh\GuTriangleMeshRTree.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="PhysX\geomutils\src\pcm\GuPCMContactBoxBox.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="PhysX\geomutils\src\pcm\GuPCMContactBoxConvex.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="PhysX\geomutils\src\pcm\GuPCMContactCapsuleBox.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="PhysX\geomutils\src\pcm\GuPCMContactCapsuleCapsule.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="PhysX\geomutils\src\pcm\GuPCMContactCapsuleConvex.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="PhysX\geomutils\src\pcm\GuPCMContactCapsuleHeightField.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="PhysX\geomutils\src\pcm\GuPCMContactCapsuleMesh.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="PhysX\geomutils\src\pcm\GuPCMContactConvexCommon.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="PhysX\geomutils\src\pcm\GuPCMContactConvexConvex.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="PhysX\geomutils\src\pcm\GuPCMContactConvexHeightField.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="PhysX\geomutils\src\pcm\GuPCMContactConvexMesh.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="PhysX\geomutils\src\pcm\GuPCMContactGenBoxConvex.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="PhysX\geomutils\src\pcm\GuPCMContactGenSphereCapsule.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="PhysX\geomutils\src\pcm\GuPCMContactPlaneBox.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="PhysX\geomutils\src\pcm\GuPCMContactPlaneCapsule.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="PhysX\geomutils\src\pcm\GuPCMContactPlaneConvex.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="PhysX\geomutils\src\pcm\GuPCMContactSphereBox.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="PhysX\geomutils\src\pcm\GuPCMContactSphereCapsule.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="PhysX\geomutils\src\pcm\GuPCMContactSphereConvex.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="PhysX\geomutils\src\pcm\GuPCMContactSphereHeightField.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="PhysX\geomutils\src\pcm\GuPCMContactSphereMesh.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="PhysX\geomutils\src\pcm\GuPCMContactSpherePlane.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="PhysX\geomutils\src\pcm\GuPCMContactSphereSphere.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="PhysX\geomutils\src\pcm\GuPCMShapeConvex.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="PhysX\geomutils\src\pcm\GuPCMTriangleContactGen.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="PhysX\geomutils\src\pcm\GuPersistentContactManifold.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="PhysX\geomutils\src\sweep\GuSweepBoxBox.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="PhysX\geomutils\src\sweep\GuSweepBoxSphere.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="PhysX\geomutils\src\sweep\GuSweepBoxTriangle_FeatureBased.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="PhysX\geomutils\src\sweep\GuSweepBoxTriangle_SAT.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="PhysX\geomutils\src\sweep\GuSweepCapsuleBox.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="PhysX\geomutils\src\sweep\GuSweepCapsuleCapsule.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="PhysX\geomutils\src\sweep\GuSweepCapsuleTriangle.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="PhysX\geomutils\src\sweep\GuSweepSphereCapsule.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="PhysX\geomutils\src\sweep\GuSweepSphereSphere.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="PhysX\geomutils\src\sweep\GuSweepSphereTriangle.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="PhysX\geomutils\src\sweep\GuSweepTriangleUtils.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="PhysX\geomutils\src\GuAABBTreeBuild.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="PhysX\geomutils\src\GuBounds.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="PhysX\geomutils\src\GuBox.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="PhysX\geomutils\src\GuBVHStructure.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="PhysX\geomutils\src\GuCapsule.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="PhysX\geomutils\src\GuCCTSweepTests.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="PhysX\geomutils\src\GuGeometryQuery.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="PhysX\geomutils\src\GuGeometryUnion.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="PhysX\geomutils\src\GuInternal.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="PhysX\geomutils\src\GuMeshFactory.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="PhysX\geomutils\src\GuMetaData.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="PhysX\geomutils\src\GuMTD.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="PhysX\geomutils\src\GuOverlapTests.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="PhysX\geomutils\src\GuRaycastTests.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="PhysX\geomutils\src\GuSerialize.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="PhysX\geomutils\src\GuSweepMTD.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="PhysX\geomutils\src\GuSweepSharedTests.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="PhysX\geomutils\src\GuSweepTests.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="PhysX\immediatemode\src\NpImmediateMode.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="PhysX\lowlevel\api\src\px_globals.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="PhysX\lowlevel\common\src\pipeline\PxcContactCache.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="PhysX\lowlevel\common\src\pipeline\PxcContactMethodImpl.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="PhysX\lowlevel\common\src\pipeline\PxcMaterialHeightField.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="PhysX\lowlevel\common\src\pipeline\PxcMaterialMesh.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="PhysX\lowlevel\common\src\pipeline\PxcMaterialMethodImpl.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="PhysX\lowlevel\common\src\pipeline\PxcMaterialShape.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="PhysX\lowlevel\common\src\pipeline\PxcNpBatch.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="PhysX\lowlevel\common\src\pipeline\PxcNpCacheStreamPair.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="PhysX\lowlevel\common\src\pipeline\PxcNpContactPrepShared.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="PhysX\lowlevel\common\src\pipeline\PxcNpMemBlockPool.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="PhysX\lowlevel\common\src\pipeline\PxcNpThreadContext.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="PhysX\lowlevel\software\src\PxsCCD.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="PhysX\lowlevel\software\src\PxsContactManager.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="PhysX\lowlevel\software\src\PxsContext.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="PhysX\lowlevel\software\src\PxsDefaultMemoryManager.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="PhysX\lowlevel\software\src\PxsIslandSim.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="PhysX\lowlevel\software\src\PxsMaterialCombiner.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="PhysX\lowlevel\software\src\PxsNphaseImplementationContext.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="PhysX\lowlevel\software\src\PxsSimpleIslandManager.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="PhysX\lowlevelaabb\src\BpAABBManager.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="PhysX\lowlevelaabb\src\BpBroadPhase.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="PhysX\lowlevelaabb\src\BpBroadPhaseABP.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="PhysX\lowlevelaabb\src\BpBroadPhaseMBP.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="PhysX\lowlevelaabb\src\BpBroadPhaseSap.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="PhysX\lowlevelaabb\src\BpBroadPhaseSapAux.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="PhysX\lowlevelaabb\src\BpBroadPhaseShared.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="PhysX\lowlevelaabb\src\BpMBPTasks.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="PhysX\lowlevelaabb\src\BpSAPTasks.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="PhysX\lowleveldynamics\src\DyArticulation.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="PhysX\lowleveldynamics\src\DyArticulationContactPrep.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="PhysX\lowleveldynamics\src\DyArticulationContactPrepPF.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="PhysX\lowleveldynamics\src\DyArticulationHelper.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="PhysX\lowleveldynamics\src\DyArticulationScalar.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="PhysX\lowleveldynamics\src\DyArticulationSIMD.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="PhysX\lowleveldynamics\src\DyConstraintPartition.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="PhysX\lowleveldynamics\src\DyConstraintSetup.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="PhysX\lowleveldynamics\src\DyConstraintSetupBlock.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="PhysX\lowleveldynamics\src\DyContactPrep.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="PhysX\lowleveldynamics\src\DyContactPrep4.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="PhysX\lowleveldynamics\src\DyContactPrep4PF.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="PhysX\lowleveldynamics\src\DyContactPrepPF.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="PhysX\lowleveldynamics\src\DyDynamics.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="PhysX\lowleveldynamics\src\DyFeatherstoneArticulation.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="PhysX\lowleveldynamics\src\DyFeatherstoneForwardDynamic.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="PhysX\lowleveldynamics\src\DyFeatherstoneInverseDynamic.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="PhysX\lowleveldynamics\src\DyFrictionCorrelation.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="PhysX\lowleveldynamics\src\DyRigidBodyToSolverBody.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="PhysX\lowleveldynamics\src\DySolverConstraints.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="PhysX\lowleveldynamics\src\DySolverConstraintsBlock.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="PhysX\lowleveldynamics\src\DySolverControl.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="PhysX\lowleveldynamics\src\DySolverControlPF.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="PhysX\lowleveldynamics\src\DySolverPFConstraints.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="PhysX\lowleveldynamics\src\DySolverPFConstraintsBlock.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="PhysX\lowleveldynamics\src\DyTGSContactPrep.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="PhysX\lowleveldynamics\src\DyTGSContactPrepBlock.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="PhysX\lowleveldynamics\src\DyTGSDynamics.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="PhysX\lowleveldynamics\src\DyThreadContext.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="PhysX\lowleveldynamics\src\DyThresholdTable.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="PhysX\physx\src\buffering\ScbActor.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="PhysX\physx\src\buffering\ScbAggregate.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="PhysX\physx\src\buffering\ScbBase.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="PhysX\physx\src\buffering\ScbMetaData.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="PhysX\physx\src\buffering\ScbScene.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="PhysX\physx\src\buffering\ScbScenePvdClient.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="PhysX\physx\src\buffering\ScbShape.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="PhysX\physx\src\device\linux\PhysXIndicatorLinux.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="PhysX\physx\src\device\windows\PhysXIndicatorWindows.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="PhysX\physx\src\gpu\PxGpu.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="PhysX\physx\src\gpu\PxPhysXGpuModuleLoader.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="PhysX\physx\src\windows\NpWindowsDelayLoadHook.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="PhysX\physx\src\NpActor.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="PhysX\physx\src\NpAggregate.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="PhysX\physx\src\NpArticulation.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="PhysX\physx\src\NpArticulationJoint.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="PhysX\physx\src\NpArticulationJointReducedCoordinate.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="PhysX\physx\src\NpArticulationLink.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="PhysX\physx\src\NpArticulationReducedCoordinate.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="PhysX\physx\src\NpBatchQuery.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="PhysX\physx\src\NpConstraint.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="PhysX\physx\src\NpFactory.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="PhysX\physx\src\NpMaterial.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="PhysX\physx\src\NpMetaData.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="PhysX\physx\src\NpPhysics.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="PhysX\physx\src\NpPvdSceneQueryCollector.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="PhysX\physx\src\NpReadCheck.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="PhysX\physx\src\NpRigidDynamic.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="PhysX\physx\src\NpRigidStatic.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="PhysX\physx\src\NpScene.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="PhysX\physx\src\NpSceneQueries.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="PhysX\physx\src\NpSerializerAdapter.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="PhysX\physx\src\NpShape.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="PhysX\physx\src\NpShapeManager.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="PhysX\physx\src\NpWriteCheck.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="PhysX\physx\src\PvdMetaDataPvdBinding.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="PhysX\physx\src\PvdPhysicsClient.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="PhysX\physxcharacterkinematic\src\CctBoxController.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="PhysX\physxcharacterkinematic\src\CctCapsuleController.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="PhysX\physxcharacterkinematic\src\CctCharacterController.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="PhysX\physxcharacterkinematic\src\CctCharacterControllerCallbacks.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="PhysX\physxcharacterkinematic\src\CctCharacterControllerManager.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="PhysX\physxcharacterkinematic\src\CctController.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="PhysX\physxcharacterkinematic\src\CctObstacleContext.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="PhysX\physxcharacterkinematic\src\CctSweptBox.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="PhysX\physxcharacterkinematic\src\CctSweptCapsule.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="PhysX\physxcharacterkinematic\src\CctSweptVolume.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="PhysX\physxcooking\src\convex\BigConvexDataBuilder.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="PhysX\physxcooking\src\convex\ConvexHullBuilder.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="PhysX\physxcooking\src\convex\ConvexHullLib.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="PhysX\physxcooking\src\convex\ConvexHullUtils.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="PhysX\physxcooking\src\convex\ConvexMeshBuilder.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="PhysX\physxcooking\src\convex\ConvexPolygonsBuilder.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="PhysX\physxcooking\src\convex\QuickHullConvexHullLib.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="PhysX\physxcooking\src\convex\VolumeIntegration.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="PhysX\physxcooking\src\mesh\GrbTriangleMeshCooking.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="PhysX\physxcooking\src\mesh\HeightFieldCooking.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="PhysX\physxcooking\src\mesh\MeshBuilder.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="PhysX\physxcooking\src\mesh\RTreeCooking.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="PhysX\physxcooking\src\mesh\TriangleMeshBuilder.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="PhysX\physxcooking\src\windows\WindowsCookingDelayLoadHook.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="PhysX\physxcooking\src\Adjacencies.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="PhysX\physxcooking\src\BVHStructureBuilder.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="PhysX\physxcooking\src\Cooking.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="PhysX\physxcooking\src\CookingUtils.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="PhysX\physxcooking\src\EdgeList.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="PhysX\physxcooking\src\MeshCleaner.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="PhysX\physxcooking\src\Quantizer.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="PhysX\physxextensions\src\serialization\Binary\SnBinaryDeserialization.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="PhysX\physxextensions\src\serialization\Binary\SnBinarySerialization.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="PhysX\physxextensions\src\serialization\Binary\SnConvX.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="PhysX\physxextensions\src\serialization\Binary\SnConvX_Align.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="PhysX\physxextensions\src\serialization\Binary\SnConvX_Convert.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="PhysX\physxextensions\src\serialization\Binary\SnConvX_Error.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="PhysX\physxextensions\src\serialization\Binary\SnConvX_MetaData.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="PhysX\physxextensions\src\serialization\Binary\SnConvX_Output.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="PhysX\physxextensions\src\serialization\Binary\SnConvX_Union.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="PhysX\physxextensions\src\serialization\Binary\SnSerializationContext.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="PhysX\physxextensions\src\serialization\Xml\SnJointRepXSerializer.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="PhysX\physxextensions\src\serialization\Xml\SnRepXCoreSerializer.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="PhysX\physxextensions\src\serialization\Xml\SnRepXUpgrader.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="PhysX\physxextensions\src\serialization\Xml\SnXmlSerialization.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="PhysX\physxextensions\src\serialization\SnSerialization.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="PhysX\physxextensions\src\serialization\SnSerializationRegistry.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="PhysX\physxextensions\src\serialization\SnSerialUtils.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="PhysX\physxextensions\src\ExtBroadPhase.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="PhysX\physxextensions\src\ExtCollection.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="PhysX\physxextensions\src\ExtContactJoint.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="PhysX\physxextensions\src\ExtConvexMeshExt.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="PhysX\physxextensions\src\ExtCpuWorkerThread.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="PhysX\physxextensions\src\ExtD6Joint.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="PhysX\physxextensions\src\ExtD6JointCreate.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="PhysX\physxextensions\src\ExtDefaultCpuDispatcher.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="PhysX\physxextensions\src\ExtDefaultErrorCallback.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="PhysX\physxextensions\src\ExtDefaultSimulationFilterShader.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="PhysX\physxextensions\src\ExtDefaultStreams.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="PhysX\physxextensions\src\ExtDistanceJoint.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="PhysX\physxextensions\src\ExtExtensions.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="PhysX\physxextensions\src\ExtFixedJoint.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="PhysX\physxextensions\src\ExtJoint.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="PhysX\physxextensions\src\ExtMetaData.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="PhysX\physxextensions\src\ExtPrismaticJoint.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="PhysX\physxextensions\src\ExtPvd.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="PhysX\physxextensions\src\ExtPxStringTable.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="PhysX\physxextensions\src\ExtRaycastCCD.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="PhysX\physxextensions\src\ExtRevoluteJoint.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="PhysX\physxextensions\src\ExtRigidActorExt.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="PhysX\physxextensions\src\ExtRigidBodyExt.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="PhysX\physxextensions\src\ExtSceneQueryExt.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="PhysX\physxextensions\src\ExtSimpleFactory.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="PhysX\physxextensions\src\ExtSmoothNormals.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="PhysX\physxextensions\src\ExtSphericalJoint.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="PhysX\physxextensions\src\ExtTriangleMeshExt.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="PhysX\physxmetadata\core\src\PxAutoGeneratedMetaDataObjects.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="PhysX\physxmetadata\core\src\PxMetaDataObjects.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="PhysX\physxmetadata\extensions\src\PxExtensionAutoGeneratedMetaDataObjects.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="PhysX\physxvehicle\src\physxmetadata\src\PxVehicleAutoGeneratedMetaDataObjects.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="PhysX\physxvehicle\src\physxmetadata\src\PxVehicleMetaDataObjects.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="PhysX\physxvehicle\src\PxVehicleComponents.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="PhysX\physxvehicle\src\PxVehicleDrive.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="PhysX\physxvehicle\src\PxVehicleDrive4W.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="PhysX\physxvehicle\src\PxVehicleDriveNW.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="PhysX\physxvehicle\src\PxVehicleDriveTank.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="PhysX\physxvehicle\src\PxVehicleMetaData.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="PhysX\physxvehicle\src\PxVehicleNoDrive.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="PhysX\physxvehicle\src\PxVehicleSDK.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="PhysX\physxvehicle\src\PxVehicleSerialization.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="PhysX\physxvehicle\src\PxVehicleSuspWheelTire4.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="PhysX\physxvehicle\src\PxVehicleTireFriction.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="PhysX\physxvehicle\src\PxVehicleUpdate.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="PhysX\physxvehicle\src\PxVehicleWheels.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="PhysX\physxvehicle\src\VehicleUtilControl.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="PhysX\physxvehicle\src\VehicleUtilSetup.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="PhysX\physxvehicle\src\VehicleUtilTelemetry.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="PhysX\pvd\src\PxProfileEventImpl.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="PhysX\pvd\src\PxPvd.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="PhysX\pvd\src\PxPvdDataStream.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="PhysX\pvd\src\PxPvdDefaultFileTransport.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="PhysX\pvd\src\PxPvdDefaultSocketTransport.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="PhysX\pvd\src\PxPvdImpl.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="PhysX\pvd\src\PxPvdMemClient.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="PhysX\pvd\src\PxPvdObjectModelMetaData.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="PhysX\pvd\src\PxPvdObjectRegistrar.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="PhysX\pvd\src\PxPvdProfileZoneClient.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="PhysX\pvd\src\PxPvdUserRenderer.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="PhysX\scenequery\src\SqAABBPruner.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="PhysX\scenequery\src\SqAABBTree.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="PhysX\scenequery\src\SqAABBTreeUpdateMap.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="PhysX\scenequery\src\SqBounds.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="PhysX\scenequery\src\SqBucketPruner.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="PhysX\scenequery\src\SqCompoundPruner.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="PhysX\scenequery\src\SqCompoundPruningPool.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="PhysX\scenequery\src\SqExtendedBucketPruner.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="PhysX\scenequery\src\SqIncrementalAABBPruner.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="PhysX\scenequery\src\SqIncrementalAABBPrunerCore.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="PhysX\scenequery\src\SqIncrementalAABBTree.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="PhysX\scenequery\src\SqMetaData.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="PhysX\scenequery\src\SqPruningPool.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="PhysX\scenequery\src\SqPruningStructure.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="PhysX\scenequery\src\SqSceneQueryManager.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="PhysX\simulationcontroller\src\ScActorCore.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="PhysX\simulationcontroller\src\ScActorSim.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="PhysX\simulationcontroller\src\ScArticulationCore.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="PhysX\simulationcontroller\src\ScArticulationJointCore.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="PhysX\simulationcontroller\src\ScArticulationJointSim.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="PhysX\simulationcontroller\src\ScArticulationSim.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="PhysX\simulationcontroller\src\ScBodyCore.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="PhysX\simulationcontroller\src\ScBodySim.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="PhysX\simulationcontroller\src\ScConstraintCore.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="PhysX\simulationcontroller\src\ScConstraintGroupNode.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="PhysX\simulationcontroller\src\ScConstraintInteraction.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="PhysX\simulationcontroller\src\ScConstraintProjectionManager.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="PhysX\simulationcontroller\src\ScConstraintProjectionTree.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="PhysX\simulationcontroller\src\ScConstraintSim.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="PhysX\simulationcontroller\src\ScElementInteractionMarker.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="PhysX\simulationcontroller\src\ScElementSim.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="PhysX\simulationcontroller\src\ScInteraction.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="PhysX\simulationcontroller\src\ScIterators.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="PhysX\simulationcontroller\src\ScMetaData.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="PhysX\simulationcontroller\src\ScNPhaseCore.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="PhysX\simulationcontroller\src\ScPhysics.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="PhysX\simulationcontroller\src\ScRigidCore.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="PhysX\simulationcontroller\src\ScRigidSim.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="PhysX\simulationcontroller\src\ScScene.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="PhysX\simulationcontroller\src\ScShapeCore.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="PhysX\simulationcontroller\src\ScShapeInteraction.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="PhysX\simulationcontroller\src\ScShapeSim.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="PhysX\simulationcontroller\src\ScSimStats.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="PhysX\simulationcontroller\src\ScSimulationController.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="PhysX\simulationcontroller\src\ScSqBoundsManager.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="PhysX\simulationcontroller\src\ScStaticCore.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="PhysX\simulationcontroller\src\ScTriggerInteraction.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="PhysX\task\src\TaskManager.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="Internal\Source\AComponents.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="Internal\Source\ActorCom.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="Internal\Source\Audio.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="Internal\Source\AudioPlayer.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="Internal\Source\Camera.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="Internal\Source\CWaveFile.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="Internal\Source\Engine.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="Internal\Source\EngineDefault.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="Internal\Source\GameObject.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="Internal\Source\IIDDef.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="Internal\Source\Input.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="Internal\Source\PhysicsManager.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="Internal\Source\PhysicsScene.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="Internal\Source\Renderer.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="Internal\Source\ResourceLoader.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="Internal\Source\Scene.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="Internal\Source\SceneCom.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="Internal\Source\Timer.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="Internal\Source\CustomTextRenderer.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="Internal\Source\RenderTarget.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="Internal\Source\Texture.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="Internal\Source\TextFormat.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="Internal\Source\FontLoader.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="Internal\Source\MiscFunc.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="Internal\Source\RenderTargetTreeNode.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="Internal\Source\RenderTargetTreeView.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="DXMaster\Source\AlphaTestEffect.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="DXMaster\Source\BasicEffect.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="DXMaster\Source\BasicPostProcess.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="DXMaster\Source\BinaryReader.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="DXMaster\Source\BufferHelpers.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="DXMaster\Source\CommonStates.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="DXMaster\Source\DDSTextureLoader.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="DXMaster\Source\DebugEffect.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="DXMaster\Source\DGSLEffect.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="DXMaster\Source\DGSLEffectFactory.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="DXMaster\Source\DirectXHelpers.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="DXMaster\Source\DualPostProcess.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="DXMaster\Source\DualTextureEffect.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="DXMaster\Source\EffectCommon.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="DXMaster\Source\EffectFactory.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="DXMaster\Source\EnvironmentMapEffect.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="DXMaster\Source\GamePad.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="DXMaster\Source\GeometricPrimitive.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="DXMaster\Source\Geometry.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="DXMaster\Source\GraphicsMemory.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="DXMaster\Source\Keyboard.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="DXMaster\Source\Model.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="DXMaster\Source\ModelLoadCMO.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="DXMaster\Source\ModelLoadSDKMESH.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="DXMaster\Source\ModelLoadVBO.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="DXMaster\Source\Mouse.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="DXMaster\Source\NormalMapEffect.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="DXMaster\Source\PBREffect.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="DXMaster\Source\PBREffectFactory.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="DXMaster\Source\pch.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="DXMaster\Source\PrimitiveBatch.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="DXMaster\Source\ScreenGrab.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="DXMaster\Source\SimpleMath.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="DXMaster\Source\SkinnedEffect.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="DXMaster\Source\SpriteBatch.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="DXMaster\Source\SpriteFont.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="DXMaster\Source\ToneMapPostProcess.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="DXMaster\Source\VertexTypes.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="DXMaster\Source\WICTextureLoader.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="FXMaster\Source\d3dxGlobal.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="FXMaster\Source\EffectAPI.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="FXMaster\Source\EffectLoad.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="FXMaster\Source\EffectNonRuntime.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="FXMaster\Source\EffectReflection.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="FXMaster\Source\EffectRuntime.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="DXMaster\Audio\AudioEngine.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="DXMaster\Audio\DynamicSoundEffectInstance.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="DXMaster\Audio\SoundCommon.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="DXMaster\Audio\SoundEffect.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="DXMaster\Audio\SoundEffectInstance.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="DXMaster\Audio\SoundStreamInstance.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="DXMaster\Audio\WaveBank.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="DXMaster\Audio\WaveBankReader.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="DXMaster\Audio\WAVFileReader.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="Internal\Source\AudioInstance.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="Internal\Source\DynamicAudioInstance.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="Internal\Source\Buffer.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="PhysX\compiler\resource_x64\PhysX.rc">
+      <Filter>资源文件</Filter>
+    </ResourceCompile>
+    <ResourceCompile Include="PhysX\compiler\resource_x64\PhysXCommon.rc">
+      <Filter>资源文件</Filter>
+    </ResourceCompile>
+    <ResourceCompile Include="PhysX\compiler\resource_x64\PhysXCooking.rc">
+      <Filter>资源文件</Filter>
+    </ResourceCompile>
+    <ResourceCompile Include="PhysX\compiler\resource_x64\PhysXFoundation.rc">
+      <Filter>资源文件</Filter>
+    </ResourceCompile>
+    <ResourceCompile Include="PhysX\compiler\resource_x86\PhysX.rc">
+      <Filter>资源文件</Filter>
+    </ResourceCompile>
+    <ResourceCompile Include="PhysX\compiler\resource_x86\PhysXCommon.rc">
+      <Filter>资源文件</Filter>
+    </ResourceCompile>
+    <ResourceCompile Include="PhysX\compiler\resource_x86\PhysXCooking.rc">
+      <Filter>资源文件</Filter>
+    </ResourceCompile>
+    <ResourceCompile Include="PhysX\compiler\resource_x86\PhysXFoundation.rc">
+      <Filter>资源文件</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="PhysX\filebuf\include\PsAsciiConversion.inl">
+      <Filter>头文件</Filter>
+    </None>
+    <None Include="PhysX\filebuf\include\PsIOStream.inl">
+      <Filter>头文件</Filter>
+    </None>
+    <None Include="DXMaster\Include\SimpleMath.inl">
+      <Filter>头文件</Filter>
+    </None>
+    <None Include="DXMaster\Source\Shaders\Compiled\AlphaTestEffect_PSAlphaTestEqNe.inc">
+      <Filter>头文件</Filter>
+    </None>
+    <None Include="DXMaster\Source\Shaders\Compiled\AlphaTestEffect_PSAlphaTestEqNeNoFog.inc">
+      <Filter>头文件</Filter>
+    </None>
+    <None Include="DXMaster\Source\Shaders\Compiled\AlphaTestEffect_PSAlphaTestLtGt.inc">
+      <Filter>头文件</Filter>
+    </None>
+    <None Include="DXMaster\Source\Shaders\Compiled\AlphaTestEffect_PSAlphaTestLtGtNoFog.inc">
+      <Filter>头文件</Filter>
+    </None>
+    <None Include="DXMaster\Source\Shaders\Compiled\AlphaTestEffect_VSAlphaTest.inc">
+      <Filter>头文件</Filter>
+    </None>
+    <None Include="DXMaster\Source\Shaders\Compiled\AlphaTestEffect_VSAlphaTestNoFog.inc">
+      <Filter>头文件</Filter>
+    </None>
+    <None Include="DXMaster\Source\Shaders\Compiled\AlphaTestEffect_VSAlphaTestVc.inc">
+      <Filter>头文件</Filter>
+    </None>
+    <None Include="DXMaster\Source\Shaders\Compiled\AlphaTestEffect_VSAlphaTestVcNoFog.inc">
+      <Filter>头文件</Filter>
+    </None>
+    <None Include="DXMaster\Source\Shaders\Compiled\BasicEffect_PSBasic.inc">
+      <Filter>头文件</Filter>
+    </None>
+    <None Include="DXMaster\Source\Shaders\Compiled\BasicEffect_PSBasicNoFog.inc">
+      <Filter>头文件</Filter>
+    </None>
+    <None Include="DXMaster\Source\Shaders\Compiled\BasicEffect_PSBasicPixelLighting.inc">
+      <Filter>头文件</Filter>
+    </None>
+    <None Include="DXMaster\Source\Shaders\Compiled\BasicEffect_PSBasicPixelLightingTx.inc">
+      <Filter>头文件</Filter>
+    </None>
+    <None Include="DXMaster\Source\Shaders\Compiled\BasicEffect_PSBasicTx.inc">
+      <Filter>头文件</Filter>
+    </None>
+    <None Include="DXMaster\Source\Shaders\Compiled\BasicEffect_PSBasicTxNoFog.inc">
+      <Filter>头文件</Filter>
+    </None>
+    <None Include="DXMaster\Source\Shaders\Compiled\BasicEffect_PSBasicVertexLighting.inc">
+      <Filter>头文件</Filter>
+    </None>
+    <None Include="DXMaster\Source\Shaders\Compiled\BasicEffect_PSBasicVertexLightingNoFog.inc">
+      <Filter>头文件</Filter>
+    </None>
+    <None Include="DXMaster\Source\Shaders\Compiled\BasicEffect_PSBasicVertexLightingTx.inc">
+      <Filter>头文件</Filter>
+    </None>
+    <None Include="DXMaster\Source\Shaders\Compiled\BasicEffect_PSBasicVertexLightingTxNoFog.inc">
+      <Filter>头文件</Filter>
+    </None>
+    <None Include="DXMaster\Source\Shaders\Compiled\BasicEffect_VSBasic.inc">
+      <Filter>头文件</Filter>
+    </None>
+    <None Include="DXMaster\Source\Shaders\Compiled\BasicEffect_VSBasicNoFog.inc">
+      <Filter>头文件</Filter>
+    </None>
+    <None Include="DXMaster\Source\Shaders\Compiled\BasicEffect_VSBasicOneLight.inc">
+      <Filter>头文件</Filter>
+    </None>
+    <None Include="DXMaster\Source\Shaders\Compiled\BasicEffect_VSBasicOneLightBn.inc">
+      <Filter>头文件</Filter>
+    </None>
+    <None Include="DXMaster\Source\Shaders\Compiled\BasicEffect_VSBasicOneLightTx.inc">
+      <Filter>头文件</Filter>
+    </None>
+    <None Include="DXMaster\Source\Shaders\Compiled\BasicEffect_VSBasicOneLightTxBn.inc">
+      <Filter>头文件</Filter>
+    </None>
+    <None Include="DXMaster\Source\Shaders\Compiled\BasicEffect_VSBasicOneLightTxVc.inc">
+      <Filter>头文件</Filter>
+    </None>
+    <None Include="DXMaster\Source\Shaders\Compiled\BasicEffect_VSBasicOneLightTxVcBn.inc">
+      <Filter>头文件</Filter>
+    </None>
+    <None Include="DXMaster\Source\Shaders\Compiled\BasicEffect_VSBasicOneLightVc.inc">
+      <Filter>头文件</Filter>
+    </None>
+    <None Include="DXMaster\Source\Shaders\Compiled\BasicEffect_VSBasicOneLightVcBn.inc">
+      <Filter>头文件</Filter>
+    </None>
+    <None Include="DXMaster\Source\Shaders\Compiled\BasicEffect_VSBasicPixelLighting.inc">
+      <Filter>头文件</Filter>
+    </None>
+    <None Include="DXMaster\Source\Shaders\Compiled\BasicEffect_VSBasicPixelLightingBn.inc">
+      <Filter>头文件</Filter>
+    </None>
+    <None Include="DXMaster\Source\Shaders\Compiled\BasicEffect_VSBasicPixelLightingTx.inc">
+      <Filter>头文件</Filter>
+    </None>
+    <None Include="DXMaster\Source\Shaders\Compiled\BasicEffect_VSBasicPixelLightingTxBn.inc">
+      <Filter>头文件</Filter>
+    </None>
+    <None Include="DXMaster\Source\Shaders\Compiled\BasicEffect_VSBasicPixelLightingTxVc.inc">
+      <Filter>头文件</Filter>
+    </None>
+    <None Include="DXMaster\Source\Shaders\Compiled\BasicEffect_VSBasicPixelLightingTxVcBn.inc">
+      <Filter>头文件</Filter>
+    </None>
+    <None Include="DXMaster\Source\Shaders\Compiled\BasicEffect_VSBasicPixelLightingVc.inc">
+      <Filter>头文件</Filter>
+    </None>
+    <None Include="DXMaster\Source\Shaders\Compiled\BasicEffect_VSBasicPixelLightingVcBn.inc">
+      <Filter>头文件</Filter>
+    </None>
+    <None Include="DXMaster\Source\Shaders\Compiled\BasicEffect_VSBasicTx.inc">
+      <Filter>头文件</Filter>
+    </None>
+    <None Include="DXMaster\Source\Shaders\Compiled\BasicEffect_VSBasicTxNoFog.inc">
+      <Filter>头文件</Filter>
+    </None>
+    <None Include="DXMaster\Source\Shaders\Compiled\BasicEffect_VSBasicTxVc.inc">
+      <Filter>头文件</Filter>
+    </None>
+    <None Include="DXMaster\Source\Shaders\Compiled\BasicEffect_VSBasicTxVcNoFog.inc">
+      <Filter>头文件</Filter>
+    </None>
+    <None Include="DXMaster\Source\Shaders\Compiled\BasicEffect_VSBasicVc.inc">
+      <Filter>头文件</Filter>
+    </None>
+    <None Include="DXMaster\Source\Shaders\Compiled\BasicEffect_VSBasicVcNoFog.inc">
+      <Filter>头文件</Filter>
+    </None>
+    <None Include="DXMaster\Source\Shaders\Compiled\BasicEffect_VSBasicVertexLighting.inc">
+      <Filter>头文件</Filter>
+    </None>
+    <None Include="DXMaster\Source\Shaders\Compiled\BasicEffect_VSBasicVertexLightingBn.inc">
+      <Filter>头文件</Filter>
+    </None>
+    <None Include="DXMaster\Source\Shaders\Compiled\BasicEffect_VSBasicVertexLightingTx.inc">
+      <Filter>头文件</Filter>
+    </None>
+    <None Include="DXMaster\Source\Shaders\Compiled\BasicEffect_VSBasicVertexLightingTxBn.inc">
+      <Filter>头文件</Filter>
+    </None>
+    <None Include="DXMaster\Source\Shaders\Compiled\BasicEffect_VSBasicVertexLightingTxVc.inc">
+      <Filter>头文件</Filter>
+    </None>
+    <None Include="DXMaster\Source\Shaders\Compiled\BasicEffect_VSBasicVertexLightingTxVcBn.inc">
+      <Filter>头文件</Filter>
+    </None>
+    <None Include="DXMaster\Source\Shaders\Compiled\BasicEffect_VSBasicVertexLightingVc.inc">
+      <Filter>头文件</Filter>
+    </None>
+    <None Include="DXMaster\Source\Shaders\Compiled\BasicEffect_VSBasicVertexLightingVcBn.inc">
+      <Filter>头文件</Filter>
+    </None>
+    <None Include="DXMaster\Source\Shaders\Compiled\DebugEffect_PSHemiAmbient.inc">
+      <Filter>头文件</Filter>
+    </None>
+    <None Include="DXMaster\Source\Shaders\Compiled\DebugEffect_PSRGBBiTangents.inc">
+      <Filter>头文件</Filter>
+    </None>
+    <None Include="DXMaster\Source\Shaders\Compiled\DebugEffect_PSRGBNormals.inc">
+      <Filter>头文件</Filter>
+    </None>
+    <None Include="DXMaster\Source\Shaders\Compiled\DebugEffect_PSRGBTangents.inc">
+      <Filter>头文件</Filter>
+    </None>
+    <None Include="DXMaster\Source\Shaders\Compiled\DebugEffect_VSDebug.inc">
+      <Filter>头文件</Filter>
+    </None>
+    <None Include="DXMaster\Source\Shaders\Compiled\DebugEffect_VSDebugBn.inc">
+      <Filter>头文件</Filter>
+    </None>
+    <None Include="DXMaster\Source\Shaders\Compiled\DebugEffect_VSDebugVc.inc">
+      <Filter>头文件</Filter>
+    </None>
+    <None Include="DXMaster\Source\Shaders\Compiled\DebugEffect_VSDebugVcBn.inc">
+      <Filter>头文件</Filter>
+    </None>
+    <None Include="DXMaster\Source\Shaders\Compiled\DGSLEffect_main.inc">
+      <Filter>头文件</Filter>
+    </None>
+    <None Include="DXMaster\Source\Shaders\Compiled\DGSLEffect_main1Bones.inc">
+      <Filter>头文件</Filter>
+    </None>
+    <None Include="DXMaster\Source\Shaders\Compiled\DGSLEffect_main1BonesVc.inc">
+      <Filter>头文件</Filter>
+    </None>
+    <None Include="DXMaster\Source\Shaders\Compiled\DGSLEffect_main2Bones.inc">
+      <Filter>头文件</Filter>
+    </None>
+    <None Include="DXMaster\Source\Shaders\Compiled\DGSLEffect_main2BonesVc.inc">
+      <Filter>头文件</Filter>
+    </None>
+    <None Include="DXMaster\Source\Shaders\Compiled\DGSLEffect_main4Bones.inc">
+      <Filter>头文件</Filter>
+    </None>
+    <None Include="DXMaster\Source\Shaders\Compiled\DGSLEffect_main4BonesVc.inc">
+      <Filter>头文件</Filter>
+    </None>
+    <None Include="DXMaster\Source\Shaders\Compiled\DGSLEffect_mainVc.inc">
+      <Filter>头文件</Filter>
+    </None>
+    <None Include="DXMaster\Source\Shaders\Compiled\DGSLLambert_main.inc">
+      <Filter>头文件</Filter>
+    </None>
+    <None Include="DXMaster\Source\Shaders\Compiled\DGSLLambert_mainTk.inc">
+      <Filter>头文件</Filter>
+    </None>
+    <None Include="DXMaster\Source\Shaders\Compiled\DGSLLambert_mainTx.inc">
+      <Filter>头文件</Filter>
+    </None>
+    <None Include="DXMaster\Source\Shaders\Compiled\DGSLLambert_mainTxTk.inc">
+      <Filter>头文件</Filter>
+    </None>
+    <None Include="DXMaster\Source\Shaders\Compiled\DGSLPhong_main.inc">
+      <Filter>头文件</Filter>
+    </None>
+    <None Include="DXMaster\Source\Shaders\Compiled\DGSLPhong_mainTk.inc">
+      <Filter>头文件</Filter>
+    </None>
+    <None Include="DXMaster\Source\Shaders\Compiled\DGSLPhong_mainTx.inc">
+      <Filter>头文件</Filter>
+    </None>
+    <None Include="DXMaster\Source\Shaders\Compiled\DGSLPhong_mainTxTk.inc">
+      <Filter>头文件</Filter>
+    </None>
+    <None Include="DXMaster\Source\Shaders\Compiled\DGSLUnlit_main.inc">
+      <Filter>头文件</Filter>
+    </None>
+    <None Include="DXMaster\Source\Shaders\Compiled\DGSLUnlit_mainTk.inc">
+      <Filter>头文件</Filter>
+    </None>
+    <None Include="DXMaster\Source\Shaders\Compiled\DGSLUnlit_mainTx.inc">
+      <Filter>头文件</Filter>
+    </None>
+    <None Include="DXMaster\Source\Shaders\Compiled\DGSLUnlit_mainTxTk.inc">
+      <Filter>头文件</Filter>
+    </None>
+    <None Include="DXMaster\Source\Shaders\Compiled\DualTextureEffect_PSDualTexture.inc">
+      <Filter>头文件</Filter>
+    </None>
+    <None Include="DXMaster\Source\Shaders\Compiled\DualTextureEffect_PSDualTextureNoFog.inc">
+      <Filter>头文件</Filter>
+    </None>
+    <None Include="DXMaster\Source\Shaders\Compiled\DualTextureEffect_VSDualTexture.inc">
+      <Filter>头文件</Filter>
+    </None>
+    <None Include="DXMaster\Source\Shaders\Compiled\DualTextureEffect_VSDualTextureNoFog.inc">
+      <Filter>头文件</Filter>
+    </None>
+    <None Include="DXMaster\Source\Shaders\Compiled\DualTextureEffect_VSDualTextureVc.inc">
+      <Filter>头文件</Filter>
+    </None>
+    <None Include="DXMaster\Source\Shaders\Compiled\DualTextureEffect_VSDualTextureVcNoFog.inc">
+      <Filter>头文件</Filter>
+    </None>
+    <None Include="DXMaster\Source\Shaders\Compiled\EnvironmentMapEffect_PSEnvMap.inc">
+      <Filter>头文件</Filter>
+    </None>
+    <None Include="DXMaster\Source\Shaders\Compiled\EnvironmentMapEffect_PSEnvMapDualParabolaPixelLighting.inc">
+      <Filter>头文件</Filter>
+    </None>
+    <None Include="DXMaster\Source\Shaders\Compiled\EnvironmentMapEffect_PSEnvMapDualParabolaPixelLightingFresnel.inc">
+      <Filter>头文件</Filter>
+    </None>
+    <None Include="DXMaster\Source\Shaders\Compiled\EnvironmentMapEffect_PSEnvMapDualParabolaPixelLightingFresnelNoFog.inc">
+      <Filter>头文件</Filter>
+    </None>
+    <None Include="DXMaster\Source\Shaders\Compiled\EnvironmentMapEffect_PSEnvMapDualParabolaPixelLightingNoFog.inc">
+      <Filter>头文件</Filter>
+    </None>
+    <None Include="DXMaster\Source\Shaders\Compiled\EnvironmentMapEffect_PSEnvMapNoFog.inc">
+      <Filter>头文件</Filter>
+    </None>
+    <None Include="DXMaster\Source\Shaders\Compiled\EnvironmentMapEffect_PSEnvMapPixelLighting.inc">
+      <Filter>头文件</Filter>
+    </None>
+    <None Include="DXMaster\Source\Shaders\Compiled\EnvironmentMapEffect_PSEnvMapPixelLightingFresnel.inc">
+      <Filter>头文件</Filter>
+    </None>
+    <None Include="DXMaster\Source\Shaders\Compiled\EnvironmentMapEffect_PSEnvMapPixelLightingFresnelNoFog.inc">
+      <Filter>头文件</Filter>
+    </None>
+    <None Include="DXMaster\Source\Shaders\Compiled\EnvironmentMapEffect_PSEnvMapPixelLightingNoFog.inc">
+      <Filter>头文件</Filter>
+    </None>
+    <None Include="DXMaster\Source\Shaders\Compiled\EnvironmentMapEffect_PSEnvMapSpecular.inc">
+      <Filter>头文件</Filter>
+    </None>
+    <None Include="DXMaster\Source\Shaders\Compiled\EnvironmentMapEffect_PSEnvMapSpecularNoFog.inc">
+      <Filter>头文件</Filter>
+    </None>
+    <None Include="DXMaster\Source\Shaders\Compiled\EnvironmentMapEffect_PSEnvMapSpherePixelLighting.inc">
+      <Filter>头文件</Filter>
+    </None>
+    <None Include="DXMaster\Source\Shaders\Compiled\EnvironmentMapEffect_PSEnvMapSpherePixelLightingFresnel.inc">
+      <Filter>头文件</Filter>
+    </None>
+    <None Include="DXMaster\Source\Shaders\Compiled\EnvironmentMapEffect_PSEnvMapSpherePixelLightingFresnelNoFog.inc">
+      <Filter>头文件</Filter>
+    </None>
+    <None Include="DXMaster\Source\Shaders\Compiled\EnvironmentMapEffect_PSEnvMapSpherePixelLightingNoFog.inc">
+      <Filter>头文件</Filter>
+    </None>
+    <None Include="DXMaster\Source\Shaders\Compiled\EnvironmentMapEffect_VSEnvMap.inc">
+      <Filter>头文件</Filter>
+    </None>
+    <None Include="DXMaster\Source\Shaders\Compiled\EnvironmentMapEffect_VSEnvMapBn.inc">
+      <Filter>头文件</Filter>
+    </None>
+    <None Include="DXMaster\Source\Shaders\Compiled\EnvironmentMapEffect_VSEnvMapFresnel.inc">
+      <Filter>头文件</Filter>
+    </None>
+    <None Include="DXMaster\Source\Shaders\Compiled\EnvironmentMapEffect_VSEnvMapFresnelBn.inc">
+      <Filter>头文件</Filter>
+    </None>
+    <None Include="DXMaster\Source\Shaders\Compiled\EnvironmentMapEffect_VSEnvMapOneLight.inc">
+      <Filter>头文件</Filter>
+    </None>
+    <None Include="DXMaster\Source\Shaders\Compiled\EnvironmentMapEffect_VSEnvMapOneLightBn.inc">
+      <Filter>头文件</Filter>
+    </None>
+    <None Include="DXMaster\Source\Shaders\Compiled\EnvironmentMapEffect_VSEnvMapOneLightFresnel.inc">
+      <Filter>头文件</Filter>
+    </None>
+    <None Include="DXMaster\Source\Shaders\Compiled\EnvironmentMapEffect_VSEnvMapOneLightFresnelBn.inc">
+      <Filter>头文件</Filter>
+    </None>
+    <None Include="DXMaster\Source\Shaders\Compiled\EnvironmentMapEffect_VSEnvMapPixelLighting.inc">
+      <Filter>头文件</Filter>
+    </None>
+    <None Include="DXMaster\Source\Shaders\Compiled\EnvironmentMapEffect_VSEnvMapPixelLightingBn.inc">
+      <Filter>头文件</Filter>
+    </None>
+    <None Include="DXMaster\Source\Shaders\Compiled\EnvironmentMapEffect_VSEnvMapPixelLightingBnSM4.inc">
+      <Filter>头文件</Filter>
+    </None>
+    <None Include="DXMaster\Source\Shaders\Compiled\EnvironmentMapEffect_VSEnvMapPixelLightingSM4.inc">
+      <Filter>头文件</Filter>
+    </None>
+    <None Include="DXMaster\Source\Shaders\Compiled\NormalMapEffect_PSNormalPixelLightingTx.inc">
+      <Filter>头文件</Filter>
+    </None>
+    <None Include="DXMaster\Source\Shaders\Compiled\NormalMapEffect_PSNormalPixelLightingTxNoFog.inc">
+      <Filter>头文件</Filter>
+    </None>
+    <None Include="DXMaster\Source\Shaders\Compiled\NormalMapEffect_PSNormalPixelLightingTxNoFogSpec.inc">
+      <Filter>头文件</Filter>
+    </None>
+    <None Include="DXMaster\Source\Shaders\Compiled\NormalMapEffect_PSNormalPixelLightingTxNoSpec.inc">
+      <Filter>头文件</Filter>
+    </None>
+    <None Include="DXMaster\Source\Shaders\Compiled\NormalMapEffect_VSNormalPixelLightingTx.inc">
+      <Filter>头文件</Filter>
+    </None>
+    <None Include="DXMaster\Source\Shaders\Compiled\NormalMapEffect_VSNormalPixelLightingTxBn.inc">
+      <Filter>头文件</Filter>
+    </None>
+    <None Include="DXMaster\Source\Shaders\Compiled\NormalMapEffect_VSNormalPixelLightingTxVc.inc">
+      <Filter>头文件</Filter>
+    </None>
+    <None Include="DXMaster\Source\Shaders\Compiled\NormalMapEffect_VSNormalPixelLightingTxVcBn.inc">
+      <Filter>头文件</Filter>
+    </None>
+    <None Include="DXMaster\Source\Shaders\Compiled\PBREffect_PSConstant.inc">
+      <Filter>头文件</Filter>
+    </None>
+    <None Include="DXMaster\Source\Shaders\Compiled\PBREffect_PSTextured.inc">
+      <Filter>头文件</Filter>
+    </None>
+    <None Include="DXMaster\Source\Shaders\Compiled\PBREffect_PSTexturedEmissive.inc">
+      <Filter>头文件</Filter>
+    </None>
+    <None Include="DXMaster\Source\Shaders\Compiled\PBREffect_PSTexturedEmissiveVelocity.inc">
+      <Filter>头文件</Filter>
+    </None>
+    <None Include="DXMaster\Source\Shaders\Compiled\PBREffect_PSTexturedVelocity.inc">
+      <Filter>头文件</Filter>
+    </None>
+    <None Include="DXMaster\Source\Shaders\Compiled\PBREffect_VSConstant.inc">
+      <Filter>头文件</Filter>
+    </None>
+    <None Include="DXMaster\Source\Shaders\Compiled\PBREffect_VSConstantBn.inc">
+      <Filter>头文件</Filter>
+    </None>
+    <None Include="DXMaster\Source\Shaders\Compiled\PBREffect_VSConstantVelocity.inc">
+      <Filter>头文件</Filter>
+    </None>
+    <None Include="DXMaster\Source\Shaders\Compiled\PBREffect_VSConstantVelocityBn.inc">
+      <Filter>头文件</Filter>
+    </None>
+    <None Include="DXMaster\Source\Shaders\Compiled\PostProcess_PSBloomBlur.inc">
+      <Filter>头文件</Filter>
+    </None>
+    <None Include="DXMaster\Source\Shaders\Compiled\PostProcess_PSBloomCombine.inc">
+      <Filter>头文件</Filter>
+    </None>
+    <None Include="DXMaster\Source\Shaders\Compiled\PostProcess_PSBloomExtract.inc">
+      <Filter>头文件</Filter>
+    </None>
+    <None Include="DXMaster\Source\Shaders\Compiled\PostProcess_PSCopy.inc">
+      <Filter>头文件</Filter>
+    </None>
+    <None Include="DXMaster\Source\Shaders\Compiled\PostProcess_PSDownScale2x2.inc">
+      <Filter>头文件</Filter>
+    </None>
+    <None Include="DXMaster\Source\Shaders\Compiled\PostProcess_PSDownScale4x4.inc">
+      <Filter>头文件</Filter>
+    </None>
+    <None Include="DXMaster\Source\Shaders\Compiled\PostProcess_PSGaussianBlur5x5.inc">
+      <Filter>头文件</Filter>
+    </None>
+    <None Include="DXMaster\Source\Shaders\Compiled\PostProcess_PSMerge.inc">
+      <Filter>头文件</Filter>
+    </None>
+    <None Include="DXMaster\Source\Shaders\Compiled\PostProcess_PSMonochrome.inc">
+      <Filter>头文件</Filter>
+    </None>
+    <None Include="DXMaster\Source\Shaders\Compiled\PostProcess_PSSepia.inc">
+      <Filter>头文件</Filter>
+    </None>
+    <None Include="DXMaster\Source\Shaders\Compiled\PostProcess_VSQuad.inc">
+      <Filter>头文件</Filter>
+    </None>
+    <None Include="DXMaster\Source\Shaders\Compiled\SkinnedEffect_PSSkinnedPixelLighting.inc">
+      <Filter>头文件</Filter>
+    </None>
+    <None Include="DXMaster\Source\Shaders\Compiled\SkinnedEffect_PSSkinnedVertexLighting.inc">
+      <Filter>头文件</Filter>
+    </None>
+    <None Include="DXMaster\Source\Shaders\Compiled\SkinnedEffect_PSSkinnedVertexLightingNoFog.inc">
+      <Filter>头文件</Filter>
+    </None>
+    <None Include="DXMaster\Source\Shaders\Compiled\SkinnedEffect_VSSkinnedOneLightFourBones.inc">
+      <Filter>头文件</Filter>
+    </None>
+    <None Include="DXMaster\Source\Shaders\Compiled\SkinnedEffect_VSSkinnedOneLightFourBonesBn.inc">
+      <Filter>头文件</Filter>
+    </None>
+    <None Include="DXMaster\Source\Shaders\Compiled\SkinnedEffect_VSSkinnedOneLightOneBone.inc">
+      <Filter>头文件</Filter>
+    </None>
+    <None Include="DXMaster\Source\Shaders\Compiled\SkinnedEffect_VSSkinnedOneLightOneBoneBn.inc">
+      <Filter>头文件</Filter>
+    </None>
+    <None Include="DXMaster\Source\Shaders\Compiled\SkinnedEffect_VSSkinnedOneLightTwoBones.inc">
+      <Filter>头文件</Filter>
+    </None>
+    <None Include="DXMaster\Source\Shaders\Compiled\SkinnedEffect_VSSkinnedOneLightTwoBonesBn.inc">
+      <Filter>头文件</Filter>
+    </None>
+    <None Include="DXMaster\Source\Shaders\Compiled\SkinnedEffect_VSSkinnedPixelLightingFourBones.inc">
+      <Filter>头文件</Filter>
+    </None>
+    <None Include="DXMaster\Source\Shaders\Compiled\SkinnedEffect_VSSkinnedPixelLightingFourBonesBn.inc">
+      <Filter>头文件</Filter>
+    </None>
+    <None Include="DXMaster\Source\Shaders\Compiled\SkinnedEffect_VSSkinnedPixelLightingOneBone.inc">
+      <Filter>头文件</Filter>
+    </None>
+    <None Include="DXMaster\Source\Shaders\Compiled\SkinnedEffect_VSSkinnedPixelLightingOneBoneBn.inc">
+      <Filter>头文件</Filter>
+    </None>
+    <None Include="DXMaster\Source\Shaders\Compiled\SkinnedEffect_VSSkinnedPixelLightingTwoBones.inc">
+      <Filter>头文件</Filter>
+    </None>
+    <None Include="DXMaster\Source\Shaders\Compiled\SkinnedEffect_VSSkinnedPixelLightingTwoBonesBn.inc">
+      <Filter>头文件</Filter>
+    </None>
+    <None Include="DXMaster\Source\Shaders\Compiled\SkinnedEffect_VSSkinnedVertexLightingFourBones.inc">
+      <Filter>头文件</Filter>
+    </None>
+    <None Include="DXMaster\Source\Shaders\Compiled\SkinnedEffect_VSSkinnedVertexLightingFourBonesBn.inc">
+      <Filter>头文件</Filter>
+    </None>
+    <None Include="DXMaster\Source\Shaders\Compiled\SkinnedEffect_VSSkinnedVertexLightingOneBone.inc">
+      <Filter>头文件</Filter>
+    </None>
+    <None Include="DXMaster\Source\Shaders\Compiled\SkinnedEffect_VSSkinnedVertexLightingOneBoneBn.inc">
+      <Filter>头文件</Filter>
+    </None>
+    <None Include="DXMaster\Source\Shaders\Compiled\SkinnedEffect_VSSkinnedVertexLightingTwoBones.inc">
+      <Filter>头文件</Filter>
+    </None>
+    <None Include="DXMaster\Source\Shaders\Compiled\SkinnedEffect_VSSkinnedVertexLightingTwoBonesBn.inc">
+      <Filter>头文件</Filter>
+    </None>
+    <None Include="DXMaster\Source\Shaders\Compiled\SpriteEffect_SpritePixelShader.inc">
+      <Filter>头文件</Filter>
+    </None>
+    <None Include="DXMaster\Source\Shaders\Compiled\SpriteEffect_SpriteVertexShader.inc">
+      <Filter>头文件</Filter>
+    </None>
+    <None Include="DXMaster\Source\Shaders\Compiled\ToneMap_PS_SRGB.inc">
+      <Filter>头文件</Filter>
+    </None>
+    <None Include="DXMaster\Source\Shaders\Compiled\ToneMap_PSACESFilmic.inc">
+      <Filter>头文件</Filter>
+    </None>
+    <None Include="DXMaster\Source\Shaders\Compiled\ToneMap_PSACESFilmic_SRGB.inc">
+      <Filter>头文件</Filter>
+    </None>
+    <None Include="DXMaster\Source\Shaders\Compiled\ToneMap_PSCopy.inc">
+      <Filter>头文件</Filter>
+    </None>
+    <None Include="DXMaster\Source\Shaders\Compiled\ToneMap_PSHDR10.inc">
+      <Filter>头文件</Filter>
+    </None>
+    <None Include="DXMaster\Source\Shaders\Compiled\ToneMap_PSReinhard.inc">
+      <Filter>头文件</Filter>
+    </None>
+    <None Include="DXMaster\Source\Shaders\Compiled\ToneMap_PSReinhard_SRGB.inc">
+      <Filter>头文件</Filter>
+    </None>
+    <None Include="DXMaster\Source\Shaders\Compiled\ToneMap_PSSaturate.inc">
+      <Filter>头文件</Filter>
+    </None>
+    <None Include="DXMaster\Source\Shaders\Compiled\ToneMap_PSSaturate_SRGB.inc">
+      <Filter>头文件</Filter>
+    </None>
+    <None Include="DXMaster\Source\Shaders\Compiled\ToneMap_VSQuad.inc">
+      <Filter>头文件</Filter>
+    </None>
+    <None Include="DXMaster\Source\TeapotData.inc">
+      <Filter>头文件</Filter>
+    </None>
+    <None Include="FXMaster\Source\EffectVariable.inl">
+      <Filter>头文件</Filter>
+    </None>
+  </ItemGroup>
+</Project>
